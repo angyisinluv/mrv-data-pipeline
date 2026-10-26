@@ -55,7 +55,7 @@ The 18 extra flags are all `implausible_tree_density`. They are rows where the p
 | Rows marked warning | 45 |
 | Rows marked needs_review | 46 |
 
-**Tests:** 16 passing.
+**Tests:** 19 passing.
 
 ## Dashboard
 
@@ -69,6 +69,16 @@ A Streamlit dashboard shows plantation survival KPIs calculated with SQL from th
 - Validation issues counted by rule
 
 Survival is calculated as total surviving trees divided by total planted trees. Plots marked `needs_review` are excluded from survival KPIs, so bad data does not distort the numbers.
+
+## Data quality action centre
+
+A second dashboard page lists every flagged record so the data team knows exactly what to correct.
+
+- Filter by validation rule, severity and block
+- See the farmer ID, row number, block, village, rule and message for each issue
+- Download the filtered list as CSV or Excel, with `correction_status`, `corrected_value` and `notes` columns for the field team to fill in
+
+Issues for rows removed during cleaning are kept in the list, with block and village shown as `n/a`.
 
 ## QA report
 
@@ -128,12 +138,15 @@ mrv-data-pipeline/
 │   ├── kpis.py                SQL KPI queries
 │   └── make_report.py         build the HTML QA report
 ├── dashboard/
-│   └── app.py                 Streamlit dashboard
+│   ├── app.py                 Streamlit dashboard (main page)
+│   └── pages/
+│       └── 1_Data_quality.py  data quality action centre
 ├── tests/
 │   ├── test_validate.py
 │   ├── test_clean.py
 │   ├── test_kpis.py
-│   └── test_report.py
+│   ├── test_report.py
+│   └── test_action_centre.py
 ├── data/raw/                  synthetic data and answer key
 ├── docs/                      dashboard and report screenshots
 └── reports/                   issue list, audit log and QA reports
@@ -161,6 +174,14 @@ The dashboard opens at http://localhost:8501. The pipeline creates `data/mrv.db`
 - [x] Phase 3: survival KPIs by block, species and irrigation, plus a dashboard
 - [x] Phase 4: automated QA report for each monitoring round
 - [ ] Phase 5 (optional): model to flag plots at risk of low survival
+
+## Future work
+
+- Survival trends across monitoring rounds (Q1 to Q3)
+- Village and species drill-downs
+- Farmer and land parcel tables, so one farmer can own several parcels
+- Issue status tracking (open, corrected, verified), which needs a persistent database
+- Map view, if real coordinates become available
 
 ## Tech stack
 
