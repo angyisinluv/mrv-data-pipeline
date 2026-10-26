@@ -1,0 +1,9 @@
+standardize_text:
+  - column: gender
+    mapping:
+      male: Male
+      female: Female
+
+remove_duplicates:
+  column: farmer_id
+  keep: first
