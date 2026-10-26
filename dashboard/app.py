@@ -16,9 +16,16 @@ st.title("Plantation Monitoring: Survival and Data Quality")
 st.caption("Synthetic demo data. Survival KPIs use only plots that passed validation (not marked needs_review).")
 
 if not Path(DB).exists():
-    st.error("Database not found. Run  python -m src.run_pipeline  first.")
-    st.stop()
-
+       import subprocess
+       with st.spinner("Building the database from the synthetic data..."):
+           result = subprocess.run(
+               [sys.executable, "-m", "src.run_pipeline"],
+               cwd=ROOT, capture_output=True, text=True,
+           )
+       if result.returncode != 0 or not Path(DB).exists():
+           st.error("Could not build the database.")
+           st.code(result.stderr or result.stdout)
+           st.stop()
 # ---- sidebar filters ----
 st.sidebar.header("Filters")
 block = st.sidebar.selectbox("Block", ["All"] + kpis.list_blocks(DB))
