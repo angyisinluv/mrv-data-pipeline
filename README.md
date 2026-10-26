@@ -5,7 +5,7 @@ A configurable Python pipeline that validates, cleans and summarises plantation 
 > **Data note:** all data in this repository is synthetic. It is generated randomly to imitate the structure of a tree-plantation monitoring survey. It contains no real farmers, villages, projects or coordinates.
 
 ![Dashboard screenshot](docs/dashboard.png)
-
+**[Live demo](https://mrv-data-pipeline-yfcj9elgrdc9hqer3otatt.streamlit.app/)** (synthetic data; the app may take a moment to wake up if it has been idle)
 ## Problem
 
 Monitoring survey exports usually arrive with errors: planted area larger than the land parcel, more surviving trees than planted, species counts that do not add up, duplicate farmers, incomplete rows. Checking these by hand each monitoring round is slow, and different people check different things. Survival numbers calculated from unchecked data can be wrong.
@@ -147,4 +147,4 @@ Python, pandas, PyYAML, SQLite, SQL, Streamlit, pytest
 
 ## Author
 
-Angyllyn Gurung
+Angyllyn Gurung 
