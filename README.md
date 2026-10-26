@@ -159,7 +159,7 @@ The dashboard opens at http://localhost:8501. The pipeline creates `data/mrv.db`
 - [x] Phase 1: configurable rule engine with tests
 - [x] Phase 2: cleaning with an audit trail, and loading into a SQLite database
 - [x] Phase 3: survival KPIs by block, species and irrigation, plus a dashboard
-- [ ] Phase 4: automated QA report for each monitoring round
+- [x] Phase 4: automated QA report for each monitoring round
 - [ ] Phase 5 (optional): model to flag plots at risk of low survival
 
 ## Tech stack
