@@ -94,3 +94,18 @@ def issues_by_rule(db_path):
         FROM issues GROUP BY rule_id, severity ORDER BY rows_flagged DESC
     """
     return _query(db_path, sql)
+
+
+def issue_records(db_path):
+    """Every validation issue joined to its plot, so each flagged record can be traced and corrected."""
+    sql = """
+        SELECT i.row_number, i.farmer_id, p.block, p.village,
+               i.rule_id, i.severity, i.message, p.status AS plot_status
+        FROM issues i
+        LEFT JOIN plots p ON p.row_number = i.row_number
+        ORDER BY CASE i.severity WHEN 'fail' THEN 0 ELSE 1 END, i.rule_id, i.row_number
+    """
+    df = _query(db_path, sql)
+    for col in ("block", "village", "plot_status"):
+        df[col] = df[col].fillna("n/a")
+    return df
