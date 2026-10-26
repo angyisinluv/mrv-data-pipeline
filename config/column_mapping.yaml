@@ -1,0 +1,23 @@
+# Maps standard column names (left) to the column names in the survey export (right).
+# For a new project or survey version, only this file needs to change.
+project: demo_plantation
+columns:
+  timestamp: timestamp
+  farmer_id: farmer_id
+  block: block
+  village: village
+  gender: gender
+  parcel_area_ha: parcel_area_ha
+  planted_area_ha: planted_area_ha
+  trees_planted: trees_planted
+  trees_surviving: trees_surviving
+  cashew_surviving: cashew_surviving
+  mango_surviving: mango_surviving
+  amla_surviving: amla_surviving
+  neem_surviving: neem_surviving
+  irrigation_source: irrigation_source
+  irrigation_frequency: irrigation_frequency
+  weeding_frequency: weeding_frequency
+  fencing_complete: fencing_complete
+  grazing_present: grazing_present
+  ground_cover: ground_cover

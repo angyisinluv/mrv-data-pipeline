@@ -1,0 +1,507 @@
+timestamp,farmer_id,block,village,gram_panchayat,gender,parcel_area_ha,planted_area_ha,plantation_year,monitoring_year,trees_planted,latitude,longitude,irrigation_source,irrigation_frequency,weeding_frequency,mulching,intercropping,fencing_complete,fencing_maintained,grazing_present,invasive_species_present,pest_disease_noticed,women_involved,training_received,income_improved,ground_cover,trees_surviving,trees_replanted,cashew_surviving,mango_surviving,amla_surviving,neem_surviving
+04/04/2026 12:06:44,DEMO-F0001,Block C,Village C6,GP C6,Male,0.166,0.065,2025,2026,27,22.147717,86.782928,"Pond , Water Tanker",,,,,,,,,,,,,,24,0,14,7,2,1
+31/07/2026 15:38:26,DEMO-F0002,Block B,Village B4,GP B4,Male,0.499,0.204,2025,2026,76,22.144764,86.454911,Pond,Weekly,Quarterly,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Poor,69,0,42,18,5,4
+10/06/2026 12:55:16,DEMO-F0003,Block C,Village C4,GP C4,Male,0.342,0.138,2025,2026,55,22.107282,86.719678,Water Tanker,Monthly,Rarely,Yes,Yes,No,No,No,No,Yes,No,Yes,No,Good,44,0,23,10,4,7
+12/07/2026 17:59:58,DEMO-F0004,Block C,Village C7,GP C7,Male,0.142,0.093,2025,2026,38,22.119661,86.781238,"Pond , Water Tanker",Weekly,Rarely,Yes,No,Yes,Yes,No,No,Yes,Yes,Yes,Not yet,Good,35,0,15,13,5,2
+09/08/2026 17:16:23,DEMO-F0005,Block A,Village A1,GP A1,Female,0.305,0.24,2025,2026,103,21.906901,86.599087,"Pond , Water Tanker",Monthly,Quarterly,No,No,Yes,Yes,No,No,No,No,No,Yes,Poor,98,0,64,17,12,9
+31/05/2026 08:24:08,DEMO-F0006,Block C,Village C7,GP C7,Male,3.109,2.322,2025,2026,923,22.142861,86.701317,Pond,Weekly,Quarterly,No,No,No,No,Yes,No,No,No,No,Yes,Poor,769,0,398,172,89,110
+14/07/2026 12:06:34,DEMO-F0007,Block C,Village C6,GP C6,Male,0.774,0.677,2025,2026,253,22.044398,86.788175,Water Tanker,Rarely,Monthly,Yes,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Moderate,225,0,143,42,20,20
+30/06/2026 10:01:22,DEMO-F0008,Block C,Village C4,GP C4,,2.684,2.251,2025,2026,909,22.141769,86.71469,Lift Irrigation from River,Fortnightly,Quarterly,No,No,No,No,Yes,No,Yes,No,Yes,Not yet,Good,744,0,362,170,100,112
+08/07/2026 12:30:08,DEMO-F0009,Block A,Village A5,GP A5,Male,1.136,1.02,2025,2026,384,22.009307,86.675225,Pond,Weekly,Quarterly,Yes,No,Yes,Yes,No,No,No,No,Yes,Yes,Good,367,0,191,80,52,44
+31/07/2026 09:27:02,DEMO-F0010,Block B,Village B3,GP B3,Male,3.682,1.425,2025,2026,593,22.130543,86.541448,Water Tanker,Weekly,Monthly,Yes,No,No,No,No,No,No,No,No,Yes,Moderate,498,0,272,110,52,64
+31/05/2026 13:21:24,DEMO-F0011,Block A,Village A2,GP A2,,0.35,0.313,2025,2026,125,21.941189,86.602858,Pond,Weekly,Monthly,No,Yes,No,No,No,No,No,Yes,No,Yes,Moderate,113,0,56,25,16,16
+23/06/2026 09:32:39,DEMO-F0012,Block C,Village C6,GP C6,Male,1.368,1.129,2025,2026,468,22.120015,86.753985,Pond,Fortnightly,Rarely,No,Yes,No,No,Yes,No,Yes,No,Yes,Yes,Good,365,9,219,82,35,29
+10/07/2026 14:13:53,DEMO-F0013,Block B,Village B2,GP B2,Male,3.155,1.358,2025,2026,575,21.976924,86.536022,Water Tanker,Monthly,Quarterly,No,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Good,524,0,287,121,73,43
+15/04/2026 12:32:32,DEMO-F0014,Block C,Village C3,GP C3,Male,0.808,0.419,2025,2026,171,22.115113,86.781044,Lift Irrigation from River,Fortnightly,Monthly,No,No,No,No,No,No,No,Yes,Yes,Not yet,Moderate,164,5,81,35,26,22
+29/04/2026 17:55:48,DEMO-F0015,Block B,Village B3,GP B3,,2.611,1.166,2025,2026,475,22.114332,86.492583,Lift Irrigation from River,Fortnightly,Monthly,No,No,No,No,No,No,No,Yes,Yes,Yes,Moderate,393,10,202,104,44,43
+05/04/2026 16:47:07,DEMO-F0016,Block A,Village A6,GP A6,Male,2.357,1.173,2025,2026,488,21.947469,86.62206,Canal,Fortnightly,Quarterly,Yes,No,Yes,Yes,Yes,No,No,No,No,Yes,Good,419,0,239,75,40,65
+26/04/2026 14:00:07,DEMO-F0017,Block B,Village B2,GP B2,Male,1.037,0.43,2025,2026,181,22.155327,86.516924,Water Tanker,Fortnightly,Rarely,Yes,No,Yes,Yes,No,No,Yes,Yes,No,Yes,Moderate,143,0,82,34,14,13
+11/06/2026 12:29:14,DEMO-F0018,Block A,Village A3,GP A3,Male,0.52,0.257,2025,2026,109,21.946262,86.655207,Pond,Fortnightly,Quarterly,Yes,No,No,No,No,No,No,Yes,Yes,No,Poor,102,0,63,20,9,10
+14/09/2026 15:09:31,DEMO-F0019,Block C,Village C1,GP C1,Male,0.446,0.243,2025,2026,90,22.04299,86.678741,Pond,Fortnightly,Quarterly,No,No,Yes,Yes,No,No,No,Yes,No,Yes,Good,88,2,49,24,7,8
+11/09/2026 14:41:05,DEMO-F0020,Block B,Village B1,GP B1,Female,1.631,0.762,2025,2026,308,22.11293,86.570849,Pond,Monthly,Monthly,No,No,Yes,Yes,No,No,No,Yes,Yes,Not yet,Moderate,290,8,178,66,26,20
+11/08/2026 09:23:36,DEMO-F0021,Block C,Village C1,GP C1,Male,1.623,0.946,2025,2026,361,22.103378,86.753316,Water Tanker,Rarely,Monthly,No,No,Yes,Yes,No,No,Yes,Yes,Yes,Not yet,Moderate,313,4,182,55,55,21
+03/07/2026 11:45:53,DEMO-F0022,Block A,Village A1,GP A1,Female,0.536,0.345,2025,2026,146,21.955747,86.554154,Pond,Fortnightly,Quarterly,Yes,No,Yes,Yes,No,No,No,Yes,No,Not yet,Moderate,135,8,73,23,17,22
+27/04/2026 17:55:18,DEMO-F0023,Block C,Village C7,GP C7,Female,1.262,0.722,2025,2026,296,22.108096,86.790413,Pond,Weekly,Rarely,Yes,No,No,No,No,No,No,No,Yes,Yes,Poor,271,8,161,50,38,22
+27/05/2026 11:11:47,DEMO-F0024,Block C,Village C6,GP C6,,1.498,1.178,2025,2026,465,22.151968,86.841705,More,Weekly,Quarterly,No,No,Yes,Yes,No,No,Yes,Yes,Yes,Not yet,Moderate,441,0,274,92,33,42
+12/08/2026 08:07:57,DEMO-F0025,Block C,Village C6,GP C6,Male,2.795,1.229,2025,2026,467,22.045698,86.780092,Lift Irrigation from River,,,,,,,,,,,,,,433,2,237,100,46,50
+08/09/2026 16:20:32,DEMO-F0026,Block A,Village A1,GP A1,,4.036,2.848,2025,2026,1110,21.958785,86.691349,Lift Irrigation from River,Weekly,Quarterly,Yes,No,No,No,No,No,No,No,No,Yes,Good,952,0,501,239,119,93
+18/09/2026 17:19:42,DEMO-F0027,Block B,Village B1,GP B1,Female,2.77,2.224,2025,2026,919,22.184496,86.524269,"Pond , Water Tanker",Rarely,Quarterly,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,No,Moderate,723,8,382,140,89,112
+01/06/2026 14:33:19,DEMO-F0028,Block A,Village A2,GP A2,Male,0.399,0.286,2025,2026,109,21.863269,86.536925,Canal,Fortnightly,Quarterly,Yes,No,Yes,Yes,No,Yes,No,No,No,Not yet,Good,109,0,57,27,12,13
+20/06/2026 14:20:59,DEMO-F0029,Block A,Village A4,GP A4,,7.528,3.207,2025,2026,1199,21.958982,86.527794,Water Tanker,Fortnightly,Quarterly,Yes,No,Yes,Yes,No,Yes,No,No,Yes,Yes,Good,1069,0,567,180,115,207
+24/06/2026 11:30:32,DEMO-F0030,Block C,Village C3,GP C3,,0.668,0.437,2025,2026,186,22.070731,86.742754,Pond,Monthly,Quarterly,Yes,Yes,No,No,No,No,No,No,No,Yes,Moderate,177,9,94,53,10,20
+30/03/2026 11:35:38,DEMO-F0031,Block C,Village C4,GP C4,Male,3.786,1.805,2025,2026,753,22.081464,86.700401,Water Tanker,Weekly,Quarterly,Yes,No,No,No,No,No,Yes,Yes,Yes,Not yet,Moderate,592,6,278,158,72,84
+11/04/2026 17:08:29,DEMO-F0032,Block C,Village C2,GP C2,,1.775,0.749,2025,2026,285,22.05476,86.684271,Pond,Monthly,Rarely,No,No,Yes,Yes,No,No,No,No,No,Yes,Poor,259,0,151,58,28,22
+28/03/2026 16:34:50,DEMO-F0033,Block A,Village A5,GP A5,Male,0.546,0.486,2025,2026,188,21.941522,86.616863,Water Tanker,Weekly,Quarterly,Yes,No,Yes,Yes,No,No,Yes,No,Yes,Not yet,Moderate,172,10,92,43,18,19
+07/08/2026 12:59:06,DEMO-F0034,Block A,Village A2,GP A2,Female,0.307,0.138,2025,2026,59,22.042063,86.650779,Water Tanker,Fortnightly,Monthly,Yes,No,Yes,Yes,Yes,No,No,Yes,No,Yes,Moderate,55,0,29,12,7,7
+01/05/2026 11:07:51,DEMO-F0035,Block B,Village B1,GP B1,,0.901,0.604,2025,2026,250,22.056778,86.447362,Water Tanker,Rarely,Monthly,Yes,No,Yes,Yes,No,No,No,No,No,Yes,Good,193,0,118,31,13,31
+31/07/2026 09:52:57,DEMO-F0036,Block A,Village A5,GP A5,Male,0.233,0.173,2025,2026,70,21.891519,86.597556,Pond,Monthly,Quarterly,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes,Moderate,69,0,45,14,7,3
+30/05/2026 08:06:32,DEMO-F0037,Block A,Village A6,GP A6,,3.538,1.683,2025,2026,652,21.884903,86.695494,Lift Irrigation from River,,,,,,,,,,,,,,652,0,395,132,48,77
+17/08/2026 12:49:55,DEMO-F0038,Block B,Village B1,GP B1,Male,6.778,2.76,2025,2026,1069,22.206371,86.466236,Stream,Fortnightly,Quarterly,Yes,No,Yes,No,No,No,No,No,Yes,Not yet,Good,921,0,487,213,58,163
+10/04/2026 13:32:18,DEMO-F0039,Block A,Village A3,GP A3,,0.506,0.344,2025,2026,127,21.926883,86.663488,Canal,Monthly,Quarterly,Yes,No,Yes,Yes,Yes,No,Yes,Yes,No,Not yet,Moderate,114,0,55,33,16,10
+20/05/2026 14:44:49,DEMO-F0040,Block C,Village C6,GP C6,Female,1.767,7.02,2025,2026,384,22.098718,86.705763,Lift Irrigation from River,Fortnightly,Monthly,No,No,Yes,No,Yes,No,No,Yes,Yes,Not yet,Moderate,355,6,163,84,67,41
+27/04/2026 16:03:03,DEMO-F0041,Block B,Village B4,GP B4,Male,0.537,1.31,2025,2026,136,22.099861,86.54729,Water Tanker,Fortnightly,Quarterly,No,No,No,No,No,No,Yes,No,Yes,No,Good,103,11,64,16,6,17
+10/06/2026 11:40:16,DEMO-F0042,Block C,Village C6,GP C6,Male,0.755,0.4,2025,2026,147,22.052779,86.784866,Pond,Weekly,Quarterly,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Moderate,140,7,78,24,20,18
+04/07/2026 09:40:04,DEMO-F0043,Block C,Village C3,GP C3,Male,2.823,1.415,2025,2026,587,22.088242,86.767064,Canal,Weekly,Quarterly,Yes,No,Yes,Yes,No,No,No,No,Yes,Yes,Good,587,0,350,94,82,61
+20/04/2026 16:26:16,DEMO-F0044,Block A,Village A3,GP A3,Male,1.346,0.681,2025,2026,292,22.072912,86.665458,Water Tanker,Fortnightly,Quarterly,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,Good,275,0,152,47,38,38
+24/07/2026 15:37:28,DEMO-F0045,Block C,Village C5,GP C5,Male,6.738,3.373,2025,2026,1405,22.169604,86.67242,Pond,Weekly,Monthly,No,No,No,No,No,No,No,No,Yes,Not yet,Good,1284,3,826,273,81,104
+19/09/2026 13:19:53,DEMO-F0046,Block C,Village C2,GP C2,Male,0.556,0.457,2025,2026,182,22.057353,86.785683,Water Tanker,Monthly,Quarterly,No,Yes,Yes,No,No,Yes,No,No,Yes,No,Good,170,0,92,37,23,18
+28/03/2026 08:23:30,DEMO-F0047,Block A,Village A2,GP A2,Male,3.654,1.732,2025,2026,691,21.982379,86.577365,"Pond , Water Tanker",Monthly,Quarterly,Yes,No,Yes,Yes,No,No,No,Yes,Yes,No,Good,699,5,412,141,65,81
+05/04/2026 12:40:39,DEMO-F0048,Block A,Village A4,GP A4,Male,1.599,0.769,2025,2026,304,21.908424,86.632977,Lift Irrigation from River,Rarely,Rarely,Yes,No,Yes,Yes,No,No,No,No,No,No,Poor,277,1,164,52,31,30
+16/09/2026 14:11:34,DEMO-F0049,Block C,Village C5,GP C5,,3.017,1.442,2025,2026,561,22.011182,86.742912,Water Tanker,Weekly,Quarterly,No,No,Yes,Yes,No,No,Yes,Yes,No,Not yet,Good,509,11,287,80,64,78
+21/07/2026 16:35:13,DEMO-F0050,Block A,Village A1,GP A1,,0.527,0.471,2025,2026,189,22.000976,86.644256,Lift Irrigation from River,Rarely,Monthly,No,Yes,No,No,No,No,No,Yes,Yes,Yes,Moderate,176,0,100,34,24,18
+10/09/2026 13:04:54,DEMO-F0051,Block A,Village A4,GP A4,,1.156,0.674,2025,2026,267,22.008005,86.636848,Water Tanker,Weekly,Quarterly,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Not yet,Moderate,260,0,143,60,11,46
+31/07/2026 12:37:45,DEMO-F0052,Block A,Village A3,GP A3,Male,1.051,0.635,2025,2026,258,22.002303,86.57781,Water Tanker,Fortnightly,Quarterly,Yes,No,Yes,No,No,No,No,Yes,No,Not yet,Good,244,0,132,57,31,24
+03/08/2026 11:47:59,DEMO-F0053,Block C,Village C4,GP C4,,0.378,0.332,2025,2026,141,22.076507,86.662507,Pond,Monthly,Quarterly,Yes,No,No,No,No,No,Yes,Yes,No,Not yet,Good,125,1,68,34,8,15
+18/04/2026 12:08:38,DEMO-F0054,Block C,Village C7,GP C7,Female,1.734,1.279,2025,2026,552,22.091661,86.773617,Water Tanker,Weekly,Rarely,No,Yes,Yes,Yes,No,No,No,Yes,No,Yes,Poor,469,0,295,102,39,33
+25/06/2026 08:09:49,DEMO-F0055,Block C,Village C1,GP C1,Male,2.158,1.265,2025,2026,472,22.137488,86.739292,Lift Irrigation from River,Weekly,Monthly,No,No,Yes,Yes,No,No,No,No,Yes,Yes,Moderate,456,0,259,87,58,52
+28/05/2026 09:02:13,DEMO-F0056,Block C,Village C7,GP C7,Male,2.631,1.202,2025,2026,472,22.119575,86.787469,Pond,Weekly,Monthly,No,No,Yes,Yes,No,No,Yes,No,Yes,No,Poor,459,9,260,102,60,37
+25/08/2026 15:33:45,DEMO-F0057,Block B,Village B3,GP B3,Female,3.876,2.81,2025,2026,1067,22.100318,86.517763,Canal,Fortnightly,Monthly,No,No,Yes,No,Yes,No,No,Yes,No,Not yet,Good,842,0,458,212,42,130
+28/03/2026 11:37:29,DEMO-F0058,Block B,Village B4,GP B4,Male,6.045,2.597,2025,2026,1014,22.039046,86.449742,Pond,Monthly,Monthly,Yes,Yes,Yes,No,No,No,No,No,Yes,Not yet,Moderate,943,8,578,192,82,91
+23/03/2026 16:30:29,DEMO-F0059,Block A,Village A3,GP A3,Male,0.942,0.503,2025,2026,194,21.955694,86.668306,Lift Irrigation from River,Weekly,Rarely,Yes,No,No,No,No,No,Yes,Yes,Yes,Not yet,Moderate,181,1,111,33,20,17
+03/07/2026 11:58:13,DEMO-F0060,Block A,Village A2,GP A2,,2.186,0.986,2025,2026,374,22.00395,86.601481,Lift Irrigation from River,Weekly,Quarterly,Yes,No,No,No,No,No,No,Yes,Yes,Yes,Poor,353,0,208,69,40,36
+20/09/2026 17:58:06,DEMO-F0061,Block C,Village C6,GP C6,Male,0.706,0.402,2025,2026,168,22.040121,86.7471,Lift Irrigation from River,Fortnightly,Monthly,No,Yes,No,No,No,Yes,No,Yes,No,Yes,Good,152,8,75,39,15,23
+25/09/2026 09:48:22,DEMO-F0062,Block B,Village B4,GP B4,Male,1.295,0.72,2025,2026,288,22.151938,86.487627,Lift Irrigation from River,Weekly,Quarterly,No,No,Yes,Yes,Yes,No,No,Yes,Yes,Not yet,Poor,239,0,127,53,27,32
+10/07/2026 09:52:50,DEMO-F0063,Block B,Village B1,GP B1,,0.819,0.411,2025,2026,175,22.136577,86.602215,"Pond , Water Tanker",Monthly,Quarterly,Yes,No,Yes,Yes,No,Yes,No,No,No,Yes,Good,163,0,111,23,12,19
+09/06/2026 13:52:41,DEMO-F0064,Block C,Village C5,GP C5,Female,7.524,3.028,2025,2026,1121,22.137507,86.686172,Water Tanker,Rarely,Quarterly,Yes,No,Yes,Yes,No,No,No,Yes,No,Not yet,Moderate,980,6,582,214,90,94
+10/05/2026 16:01:36,DEMO-F0065,Block B,Village B4,GP B4,Male,1.748,0.978,2025,2026,364,22.163599,86.503129,Canal,Monthly,Monthly,No,No,No,No,No,No,No,No,Yes,Not yet,Moderate,323,8,191,67,33,32
+24/09/2026 09:26:18,DEMO-F0066,Block B,Village B2,GP B2,,1.069,0.579,2025,2026,228,22.085277,86.525372,Lift Irrigation from River,,,,,,,,,,,,,,204,0,110,45,34,15
+23/04/2026 13:01:43,DEMO-F0067,Block B,Village B5,GP B5,,4.05,2.063,2025,2026,770,22.039152,86.465391,Pond,Fortnightly,Monthly,No,Yes,Yes,Yes,No,No,Yes,No,No,Yes,Good,734,0,397,164,109,67
+12/04/2026 10:14:12,DEMO-F0068,Block A,Village A4,GP A4,Male,0.218,0.1,2025,2026,38,21.923324,86.636526,Pond,Monthly,Quarterly,Yes,No,Yes,No,Yes,No,Yes,No,Yes,Yes,Moderate,32,0,18,6,6,2
+24/06/2026 15:22:18,DEMO-F0069,Block A,Village A3,GP A3,Female,0.128,0.115,2025,2026,50,21.994456,86.700596,Water Tanker,Weekly,Monthly,No,No,No,No,Yes,No,No,Yes,No,Yes,Good,41,7,28,3,1,9
+02/06/2026 13:36:39,DEMO-F0070,Block B,Village B1,GP B1,Male,2.632,1.442,2025,2026,550,22.0929,86.495477,Pond,Weekly,Quarterly,No,No,No,No,Yes,No,No,Yes,Yes,Not yet,Moderate,432,0,218,107,52,55
+22/06/2026 14:32:32,DEMO-F0071,Block A,Village A5,GP A5,Male,1.317,0.744,2025,2026,283,21.915298,86.639757,Water Tanker,Fortnightly,Rarely,No,Yes,No,No,No,No,No,Yes,Yes,Yes,Moderate,234,0,128,53,24,29
+07/09/2026 10:41:23,DEMO-F0072,Block B,Village B2,GP B2,Female,2.185,0.883,2025,2026,357,22.028932,86.382528,Water Tanker,Weekly,Monthly,No,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,Moderate,323,2,162,83,31,47
+10/05/2026 10:53:19,DEMO-F0073,Block C,Village C6,GP C6,Male,0.383,0.214,2025,2026,86,22.187632,86.728054,Lift Irrigation from River,Monthly,Monthly,No,Yes,Yes,Yes,No,No,No,Yes,No,Yes,Moderate,86,0,55,22,4,5
+02/09/2026 14:23:48,DEMO-F0074,Block A,Village A4,GP A4,Female,1.207,0.69,2025,2026,280,21.991286,86.604348,Pond,Fortnightly,Rarely,No,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Moderate,273,0,155,58,43,27
+29/04/2026 11:31:45,DEMO-F0075,Block A,Village A3,GP A3,,10.862,4.277,2025,2026,1677,21.988495,86.579075,Stream,Rarely,Quarterly,No,No,Yes,Yes,No,No,No,No,No,Not yet,Moderate,1521,0,858,322,217,124
+20/05/2026 14:54:18,DEMO-F0076,Block A,Village A1,GP A1,Male,2.547,1.48,2025,2026,623,21.998386,86.674073,Water Tanker,Weekly,Quarterly,Yes,No,No,No,Yes,No,Yes,No,No,Not yet,Moderate,502,7,289,118,43,57
+20/03/2026 09:32:23,DEMO-F0077,Block A,Village A5,GP A5,Female,1.059,0.821,2025,2026,309,21.978835,86.603688,Lift Irrigation from River,Fortnightly,Monthly,Yes,No,Yes,Yes,No,No,No,Yes,No,No,Moderate,297,0,164,86,20,27
+26/07/2026 11:00:46,DEMO-F0078,Block C,Village C2,GP C2,Male,0.64,0.475,2025,2026,188,22.087784,86.721126,Pond,Monthly,Monthly,No,Yes,Yes,Yes,No,No,Yes,Yes,Yes,No,Moderate,169,5,87,44,30,8
+30/08/2026 09:01:00,DEMO-F0079,Block B,Village B3,GP B3,,0.569,0.494,2025,2026,204,22.111812,86.50114,Water Tanker,Weekly,Quarterly,No,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Moderate,188,0,104,46,13,25
+04/09/2026 08:52:25,DEMO-F0080,Block C,Village C6,GP C6,Male,0.104,0.104,2025,2026,44,22.078622,86.634159,Pond,Fortnightly,Rarely,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,No,Moderate,40,3,24,8,6,2
+20/04/2026 10:37:27,DEMO-F0081,Block C,Village C7,GP C7,Female,1.503,0.889,2025,2026,348,22.231737,86.673401,Lift Irrigation from River,Fortnightly,Monthly,Yes,No,Yes,Yes,No,Yes,No,No,No,Yes,Good,348,0,182,61,56,49
+12/08/2026 12:53:40,DEMO-F0082,Block B,Village B5,GP B5,Female,3.364,1.508,2025,2026,610,22.147796,86.568055,More,Rarely,Quarterly,No,No,Yes,Yes,No,No,No,Yes,Yes,Not yet,Moderate,517,0,301,88,78,50
+15/04/2026 09:26:39,DEMO-F0083,Block C,Village C7,GP C7,Male,0.372,0.171,2025,2026,64,22.07681,86.624502,"Pond , Water Tanker",Monthly,Quarterly,No,No,No,No,Yes,No,No,Yes,No,Yes,Good,52,10,31,9,9,3
+17/07/2026 08:55:44,DEMO-F0084,Block A,Village A4,GP A4,Female,0.409,0.389,2025,2026,147,21.973275,86.581684,Water Tanker,Weekly,Monthly,No,No,Yes,Yes,Yes,No,No,Yes,Yes,No,Good,121,0,73,25,10,13
+31/07/2026 16:46:22,DEMO-F0085,Block A,Village A2,GP A2,,0.476,0.249,2025,2026,93,21.899457,86.600014,Water Tanker,Fortnightly,Monthly,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Moderate,86,7,54,17,6,9
+17/04/2026 13:09:08,DEMO-F0086,Block A,Village A6,GP A6,Female,0.369,0.296,2025,2026,123,22.025225,86.707181,Pond,Fortnightly,Monthly,No,No,Yes,Yes,No,No,No,Yes,No,Not yet,Good,120,0,68,31,9,12
+09/04/2026 15:09:20,DEMO-F0087,Block C,Village C6,GP C6,,1.852,0.739,2025,2026,286,22.066947,86.76843,Lift Irrigation from River,Weekly,Quarterly,No,Yes,Yes,Yes,No,No,No,Yes,No,Yes,Moderate,274,1,149,60,29,36
+02/04/2026 15:15:43,DEMO-F0088,Block B,Village B5,GP B5,,0.137,0.108,2025,2026,45,22.145054,86.492141,Water Tanker,Fortnightly,Quarterly,Yes,Yes,Yes,Yes,No,No,Yes,No,No,Not yet,Poor,46,0,23,11,7,5
+01/08/2026 09:00:57,DEMO-F0089,Block A,Village A4,GP A4,Male,2.453,1.225,2025,2026,456,22.003299,86.685226,Water Tanker,Weekly,Quarterly,Yes,No,No,No,No,Yes,No,Yes,No,Yes,Good,417,0,211,77,58,71
+14/07/2026 14:12:11,DEMO-F0090,Block B,Village B1,GP B1,Male,2.114,1.389,2025,2026,588,22.139238,86.482974,Pond,Weekly,Monthly,No,Yes,Yes,Yes,No,Yes,No,No,Yes,Not yet,Good,557,1,316,108,87,46
+11/04/2026 16:36:24,DEMO-F0091,Block A,Village A4,GP A4,Male,1.139,0.562,2025,2026,237,21.954723,86.670455,Pond,Fortnightly,Quarterly,Yes,Yes,No,No,No,No,Yes,Yes,No,Not yet,Good,202,7,116,50,16,20
+23/06/2026 12:28:57,DEMO-F0092,Block C,Village C4,GP C4,,0.126,0.076,2025,2026,28,22.10054,86.662056,Pond,Weekly,Quarterly,No,Yes,Yes,Yes,No,Yes,No,No,No,Yes,Good,28,0,16,3,6,3
+18/08/2026 16:37:12,DEMO-F0093,Block B,Village B5,GP B5,Male,0.636,0.287,2025,2026,106,22.117178,86.573663,"Pond , Water Tanker",Fortnightly,Quarterly,No,Yes,Yes,Yes,No,No,No,Yes,No,Yes,Moderate,102,0,55,26,8,13
+04/05/2026 17:27:30,DEMO-F0094,Block A,Village A3,GP A3,Male,2.926,2.137,2025,2026,794,21.921165,86.599693,Water Tanker,Weekly,Quarterly,No,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Moderate,678,10,389,177,61,51
+13/07/2026 13:27:50,DEMO-F0095,Block A,Village A2,GP A2,Male,0.142,0.058,2025,2026,25,21.927526,86.568575,Pond,Monthly,Monthly,Yes,No,Yes,Yes,Yes,No,No,No,No,Not yet,Moderate,21,4,16,3,0,2
+14/05/2026 09:01:02,DEMO-F0096,Block B,Village B1,GP B1,,0.927,0.515,2025,2026,197,22.19398,86.509143,"Pond , Water Tanker",Weekly,Quarterly,No,Yes,No,No,No,No,No,No,Yes,Not yet,Good,180,7,88,31,21,40
+08/05/2026 14:10:28,DEMO-F0097,Block A,Village A6,GP A6,Male,0.539,0.244,2025,2026,98,21.944573,86.633867,Pond,,,,,,,,,,,,,,96,0,61,21,10,4
+02/06/2026 16:48:00,DEMO-F0098,Block A,Village A5,GP A5,Female,3.431,12.925,2025,2026,575,21.91071,86.595263,Water Tanker,Weekly,Quarterly,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Good,495,0,260,111,62,62
+25/05/2026 13:47:35,DEMO-F0099,Block A,Village A1,GP A1,Male,0.998,0.384,2025,2026,161,21.924185,86.647698,Canal,Fortnightly,Monthly,Yes,No,Yes,Yes,No,No,No,No,Yes,Yes,Moderate,155,0,75,38,14,28
+22/06/2026 16:00:04,DEMO-F0100,Block C,Village C4,GP C4,,1.377,1.014,2025,2026,405,22.155019,86.70085,"Pond , Water Tanker",Weekly,Quarterly,No,Yes,No,No,No,Yes,No,No,Yes,Yes,Moderate,405,0,187,86,68,64
+28/04/2026 13:21:12,DEMO-F0101,Block C,Village C4,GP C4,Male,1.71,1.172,2025,2026,469,22.13378,86.761019,Canal,Weekly,Quarterly,No,No,Yes,Yes,No,No,Yes,No,Yes,Not yet,Good,460,0,241,97,44,78
+02/06/2026 12:11:50,DEMO-F0102,Block C,Village C4,GP C4,Male,5.153,3.679,2025,2026,1587,22.128016,86.752111,Water Tanker,Fortnightly,Quarterly,Yes,No,No,No,Yes,No,No,Yes,No,Yes,Moderate,1254,0,637,281,125,211
+16/07/2026 17:27:20,DEMO-F0103,Block A,Village A6,GP A6,,0.834,0.587,2025,2026,222,21.937124,86.616954,"Pond , Water Tanker",Monthly,Rarely,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Moderate,184,0,117,54,6,17
+01/06/2026 09:31:43,DEMO-F0104,Block C,Village C2,GP C2,,1.911,0.989,2025,2026,417,22.128668,86.707931,Pond,Monthly,Rarely,No,Yes,No,No,No,No,No,Yes,Yes,Not yet,Good,397,9,207,102,54,34
+22/07/2026 12:28:33,DEMO-F0105,Block C,Village C3,GP C3,Male,0.479,0.185,2025,2026,69,22.067822,86.737577,"Pond , Water Tanker",Weekly,Monthly,Yes,Yes,Yes,Yes,No,No,No,Yes,No,Not yet,Moderate,69,0,35,15,11,8
+10/04/2026 09:33:31,DEMO-F0106,Block C,Village C2,GP C2,Male,5.316,12.948,2025,2026,820,22.087019,86.757513,Stream,Weekly,Quarterly,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,Not yet,Moderate,776,0,474,126,119,57
+15/04/2026 14:32:49,DEMO-F0107,Block B,Village B2,GP B2,,0.654,0.355,2025,2026,151,22.16849,86.62309,More,Monthly,Quarterly,No,No,No,No,Yes,No,No,No,Yes,Yes,Good,124,0,73,28,12,11
+31/08/2026 17:13:05,DEMO-F0108,Block A,Village A6,GP A6,,0.86,0.425,2025,2026,174,21.993714,86.666971,Pond,Fortnightly,Rarely,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Not yet,Good,169,2,77,34,22,36
+15/06/2026 17:58:40,DEMO-F0109,Block A,Village A6,GP A6,Male,1.642,0.691,2025,2026,285,21.900905,86.668799,Pond,Weekly,Monthly,No,No,Yes,Yes,No,No,No,No,No,Not yet,Moderate,264,5,127,60,45,32
+13/07/2026 10:20:13,DEMO-F0110,Block C,Village C1,GP C1,Male,0.431,0.173,2025,2026,67,22.057224,86.884426,Lift Irrigation from River,Monthly,Monthly,Yes,No,Yes,Yes,Yes,No,No,No,No,No,Poor,62,0,38,12,10,7
+07/08/2026 15:16:33,DEMO-F0111,Block B,Village B4,GP B4,,1.148,0.866,2025,2026,342,22.125435,86.545798,Water Tanker,Fortnightly,Quarterly,No,No,Yes,Yes,No,Yes,No,No,No,Yes,Moderate,301,0,160,71,36,42
+16/04/2026 16:44:28,DEMO-F0112,Block A,Village A2,GP A2,,3.106,1.683,2025,2026,659,22.036307,86.644232,Water Tanker,Fortnightly,Monthly,No,No,Yes,Yes,No,Yes,No,Yes,Yes,Not yet,Moderate,643,0,344,146,82,71
+20/09/2026 16:20:13,DEMO-F0113,Block A,Village A2,GP A2,,2.139,0.917,2025,2026,368,21.854222,86.655201,"Pond , Water Tanker",Fortnightly,Quarterly,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,No,Moderate,362,0,210,68,41,43
+08/06/2026 13:01:58,DEMO-F0114,Block B,Village B2,GP B2,Female,0.251,0.169,2025,2026,67,22.133917,86.469552,Lift Irrigation from River,Fortnightly,Quarterly,Yes,No,No,No,No,No,No,Yes,No,Not yet,Good,57,0,32,18,1,6
+05/09/2026 09:44:41,DEMO-F0115,Block A,Village A2,GP A2,Male,1.073,0.63,2025,2026,245,21.881198,86.597805,Water Tanker,,,,,,,,,,,,,,214,3,99,52,22,41
+07/06/2026 12:37:02,DEMO-F0116,Block C,Village C4,GP C4,,3.541,1.374,2025,2026,532,22.068283,86.704692,Water Tanker,Monthly,Quarterly,Yes,No,Yes,Yes,No,Yes,No,Yes,No,Not yet,Good,459,5,266,90,38,65
+05/06/2026 15:45:36,DEMO-F0117,Block C,Village C7,GP C7,,0.335,0.13,2025,2026,50,22.081779,86.762381,Pond,Weekly,Rarely,No,No,Yes,Yes,No,No,No,Yes,No,Not yet,Poor,42,8,24,10,4,4
+12/07/2026 14:11:42,DEMO-F0118,Block C,Village C5,GP C5,,0.657,0.268,2025,2026,105,22.078975,86.721291,Pond,Monthly,Quarterly,Yes,Yes,No,No,No,No,No,Yes,No,Not yet,Moderate,100,0,56,23,16,5
+25/04/2026 11:52:57,DEMO-F0119,Block B,Village B4,GP B4,Male,3.532,1.551,2025,2026,586,22.09331,86.526911,Pond,Monthly,Quarterly,No,No,Yes,Yes,No,No,No,Yes,No,Yes,Poor,524,0,298,150,45,31
+13/07/2026 10:09:01,DEMO-F0120,Block B,Village B3,GP B3,Male,1.286,0.899,2025,2026,381,22.12036,86.574373,Stream,Monthly,Monthly,Yes,Yes,Yes,Yes,No,No,Yes,No,No,Yes,Good,335,0,170,78,58,29
+22/09/2026 14:31:07,DEMO-F0121,Block B,Village B1,GP B1,,1.545,1.021,2025,2026,415,22.093237,86.563158,Lift Irrigation from River,Weekly,Monthly,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Not yet,Moderate,425,0,252,107,44,22
+20/07/2026 12:17:01,DEMO-F0122,Block B,Village B1,GP B1,Male,7.047,3.757,2025,2026,1415,22.046877,86.511914,Water Tanker,Weekly,Rarely,Yes,No,Yes,Yes,No,No,No,Yes,Yes,No,Moderate,1254,0,621,281,125,227
+02/04/2026 12:43:15,DEMO-F0123,Block A,Village A2,GP A2,,2.038,1.074,2025,2026,443,21.988993,86.5865,Water Tanker,Fortnightly,Quarterly,No,No,Yes,Yes,No,No,No,No,No,Not yet,Good,417,0,207,98,52,60
+30/07/2026 17:23:05,DEMO-F0124,Block B,Village B2,GP B2,Male,2.304,1.274,2025,2026,538,22.157644,86.576764,Lift Irrigation from River,Fortnightly,Quarterly,No,No,No,No,Yes,No,No,Yes,No,Not yet,Good,477,0,315,95,27,40
+26/03/2026 08:05:28,DEMO-F0125,Block A,Village A6,GP A6,,9.084,4.5,2025,2026,1724,21.992159,86.658695,Stream,Monthly,Rarely,Yes,No,No,No,No,No,Yes,Yes,Yes,No,Moderate,1500,0,959,254,200,87
+08/04/2026 10:22:57,DEMO-F0126,Block B,Village B5,GP B5,,0.961,0.581,2025,2026,219,22.042963,86.439687,Stream,Fortnightly,Monthly,Yes,No,Yes,No,No,No,No,No,Yes,Not yet,Moderate,198,0,102,50,24,22
+13/05/2026 17:11:53,DEMO-F0127,Block A,Village A6,GP A6,Male,0.756,0.344,2025,2026,127,21.964946,86.604342,Water Tanker,Monthly,Quarterly,Yes,Yes,Yes,No,No,No,No,Yes,No,Yes,Moderate,118,5,63,30,10,15
+16/05/2026 17:12:57,DEMO-F0128,Block A,Village A4,GP A4,Male,1.589,1.036,2025,2026,384,21.983799,86.628276,Stream,Weekly,Monthly,No,Yes,Yes,Yes,No,No,No,Yes,No,Not yet,Good,341,0,213,82,29,17
+20/03/2026 11:01:30,DEMO-F0129,Block A,Village A4,GP A4,Female,1.599,1.046,2025,2026,436,21.89844,86.658941,Water Tanker,Fortnightly,Monthly,Yes,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Moderate,418,9,245,78,60,35
+23/03/2026 17:56:31,DEMO-F0130,Block B,Village B4,GP B4,Female,0.528,0.439,2025,2026,189,22.120459,86.565505,Water Tanker,Weekly,Quarterly,No,Yes,No,No,No,Yes,No,Yes,Yes,Not yet,Good,136,6,67,34,18,17
+16/08/2026 10:06:56,DEMO-F0131,Block A,Village A3,GP A3,Male,0.362,0.278,2025,2026,103,21.944187,86.634195,Stream,Monthly,Quarterly,Yes,No,Yes,Yes,Yes,No,No,No,Yes,Not yet,Good,88,0,51,21,11,5
+14/06/2026 08:31:08,DEMO-F0132,Block C,Village C5,GP C5,Female,10.624,4.5,2025,2026,1871,22.192108,86.759262,Water Tanker,Weekly,Rarely,Yes,Yes,No,No,No,No,No,Yes,No,Yes,Moderate,1573,0,802,392,233,146
+26/04/2026 11:04:16,DEMO-F0133,Block B,Village B4,GP B4,,1.621,0.946,2025,2026,352,22.216225,86.523207,More,Weekly,Quarterly,No,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,Good,295,11,158,58,29,50
+09/06/2026 13:18:49,DEMO-F0134,Block A,Village A5,GP A5,Male,0.498,0.365,2025,2026,148,21.866782,86.586307,Water Tanker,Monthly,Rarely,No,No,Yes,No,No,No,No,Yes,No,Yes,Poor,128,11,66,28,15,19
+29/07/2026 08:03:36,DEMO-F0135,Block B,Village B4,GP B4,Male,3.559,1.607,2025,2026,669,22.244696,86.506937,Water Tanker,Fortnightly,Quarterly,Yes,No,Yes,Yes,No,No,No,Yes,Yes,Not yet,Moderate,631,0,354,146,70,61
+06/08/2026 09:43:05,DEMO-F0136,Block A,Village A1,GP A1,Male,1.205,0.639,2025,2026,250,21.904239,86.62095,Water Tanker,Weekly,Quarterly,No,No,Yes,Yes,No,Yes,No,Yes,No,No,Good,241,9,132,55,33,21
+13/05/2026 15:54:32,DEMO-F0137,Block C,Village C6,GP C6,Male,0.58,0.561,2025,2026,207,22.149034,86.728266,Lift Irrigation from River,Weekly,Rarely,Yes,No,No,No,No,No,No,No,Yes,Yes,Good,179,10,97,49,11,22
+20/04/2026 14:13:01,DEMO-F0138,Block B,Village B2,GP B2,Male,1.761,1.169,2025,2026,475,22.168525,86.425721,Water Tanker,,,,,,,,,,,,,,376,0,211,62,45,58
+18/09/2026 14:03:10,DEMO-F0139,Block C,Village C6,GP C6,Male,0.282,0.22,2025,2026,95,22.050215,86.710126,Pond,Weekly,Quarterly,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Good,82,0,38,28,9,7
+17/07/2026 17:53:43,DEMO-F0140,Block A,Village A4,GP A4,Female,1.984,0.968,2025,2026,372,21.974663,86.62281,More,Weekly,Monthly,No,Yes,Yes,Yes,Yes,No,No,No,Yes,No,Good,338,0,187,63,45,43
+22/09/2026 10:17:02,DEMO-F0141,Block B,Village B5,GP B5,Male,5.677,3.942,2025,2026,1498,22.114623,86.505932,Water Tanker,Fortnightly,Monthly,No,No,Yes,Yes,No,No,No,Yes,No,Not yet,Good,1288,0,721,253,172,142
+17/05/2026 16:58:07,DEMO-F0142,Block B,Village B2,GP B2,,1.183,1.072,2025,2026,403,22.147717,86.507659,"Pond , Water Tanker",Weekly,Rarely,Yes,No,No,No,No,No,No,Yes,Yes,Yes,Good,303,7,191,31,36,45
+10/04/2026 11:33:07,DEMO-F0143,Block C,Village C7,GP C7,Male,0.546,0.502,2025,2026,203,22.111534,86.7544,Pond,Fortnightly,Quarterly,No,No,Yes,Yes,No,No,No,Yes,No,Yes,Moderate,198,5,106,43,24,25
+31/05/2026 17:14:54,DEMO-F0144,Block B,Village B5,GP B5,Male,0.861,0.446,2025,2026,181,22.179817,86.466052,Water Tanker,Fortnightly,Quarterly,No,Yes,Yes,Yes,Yes,No,No,Yes,No,Not yet,Moderate,150,0,78,36,28,8
+21/05/2026 15:49:54,DEMO-F0145,Block B,Village B2,GP B2,,0.504,0.487,2025,2026,204,22.12377,86.438598,Water Tanker,Weekly,Monthly,No,No,Yes,Yes,No,No,No,No,Yes,Not yet,Good,185,0,108,36,19,22
+03/08/2026 10:08:00,DEMO-F0146,Block A,Village A3,GP A3,,1.323,0.561,2025,2026,233,21.941606,86.602592,Stream,Weekly,Quarterly,No,No,Yes,No,Yes,No,Yes,No,Yes,Yes,Moderate,204,9,109,46,25,24
+03/08/2026 10:05:37,DEMO-F0147,Block A,Village A4,GP A4,Male,0.627,0.502,2025,2026,213,22.004803,86.658206,Pond,Weekly,Quarterly,No,No,Yes,Yes,No,Yes,No,Yes,No,Not yet,Good,201,10,108,46,19,28
+02/04/2026 13:25:23,DEMO-F0148,Block B,Village B4,GP B4,Male,3.169,1.608,2025,2026,675,22.14902,86.604378,"Pond , Water Tanker",Weekly,Monthly,No,Yes,Yes,No,No,No,No,Yes,No,No,Moderate,689,0,346,146,105,92
+09/07/2026 13:01:39,DEMO-F0149,Block B,Village B4,GP B4,Male,0.253,0.148,2025,2026,57,22.156591,86.559106,Water Tanker,Weekly,Quarterly,Yes,No,Yes,Yes,No,No,Yes,No,Yes,Yes,Good,50,7,22,10,5,13
+24/05/2026 10:20:53,DEMO-F0150,Block A,Village A6,GP A6,Male,2.616,1.531,2025,2026,618,21.916771,86.546587,Lift Irrigation from River,Monthly,Quarterly,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Not yet,Moderate,617,1,351,106,66,94
+14/07/2026 10:36:13,DEMO-F0151,Block C,Village C3,GP C3,Male,0.559,0.501,2025,2026,194,22.047737,86.718382,Water Tanker,Monthly,Quarterly,No,No,Yes,Yes,No,Yes,No,Yes,No,No,Good,176,11,97,32,27,20
+02/06/2026 16:59:39,DEMO-F0152,Block C,Village C4,GP C4,Male,2.259,0.989,2025,2026,385,22.071614,86.742832,More,Fortnightly,Monthly,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,Moderate,342,0,188,75,49,30
+30/06/2026 15:32:13,DEMO-F0153,Block A,Village A3,GP A3,Male,0.622,0.256,2025,2026,109,21.918959,86.62888,Water Tanker,Fortnightly,Quarterly,No,Yes,Yes,Yes,Yes,No,No,No,No,Not yet,Good,87,3,43,22,8,14
+02/08/2026 09:54:41,DEMO-F0154,Block B,Village B5,GP B5,Male,2.371,2.33,2025,2026,959,22.15931,86.546965,Pond,Fortnightly,Monthly,Yes,No,Yes,Yes,No,No,No,No,No,Yes,Poor,855,0,487,209,89,70
+14/05/2026 15:15:08,DEMO-F0155,Block A,Village A2,GP A2,,2.78,2.162,2025,2026,930,21.998799,86.574148,Water Tanker,Monthly,Quarterly,No,Yes,Yes,No,Yes,No,No,Yes,Yes,Yes,Good,755,0,412,201,89,53
+26/04/2026 09:32:22,DEMO-F0156,Block C,Village C5,GP C5,Female,4.088,1.671,2025,2026,660,22.092243,86.733247,Lift Irrigation from River,Weekly,Quarterly,Yes,No,Yes,Yes,No,No,No,Yes,No,Yes,Poor,631,0,357,120,74,80
+01/08/2026 12:27:00,DEMO-F0157,Block A,Village A1,GP A1,Male,0.338,0.18,2025,2026,72,22.021546,86.641016,Water Tanker,Weekly,Quarterly,No,No,No,No,No,No,No,Yes,Yes,Not yet,Poor,66,0,49,16,9,2
+16/09/2026 08:07:17,DEMO-F0158,Block C,Village C6,GP C6,Male,1.843,1.486,2025,2026,593,22.168423,86.771284,Pond,Weekly,Monthly,Yes,No,Yes,Yes,No,No,Yes,No,Yes,Not yet,Good,561,0,278,140,62,81
+12/06/2026 14:29:32,DEMO-F0159,Block C,Village C3,GP C3,Male,1.343,1.014,2025,2026,380,22.11217,86.689714,Pond,Weekly,Rarely,Yes,No,Yes,Yes,No,No,No,Yes,No,Not yet,Good,364,7,231,73,24,36
+25/09/2026 09:49:10,DEMO-F0160,Block C,Village C3,GP C3,Male,0.341,0.166,2025,2026,16,22.058905,86.712742,Pond,Weekly,Monthly,No,No,No,No,No,No,No,Yes,No,Yes,Good,16,0,10,4,1,1
+24/04/2026 10:21:38,DEMO-F0161,Block A,Village A4,GP A4,,1.488,0.689,2025,2026,277,22.028769,86.484809,Pond,Monthly,Quarterly,No,Yes,No,No,No,No,No,Yes,No,Not yet,Poor,252,6,128,43,39,42
+22/08/2026 09:53:51,DEMO-F0162,Block C,Village C4,GP C4,,1.916,0.978,2025,2026,364,22.096949,86.698927,Lift Irrigation from River,Monthly,Rarely,No,No,No,No,Yes,No,No,No,Yes,Not yet,Moderate,317,5,172,68,19,58
+23/09/2026 09:50:02,DEMO-F0163,Block A,Village A6,GP A6,,2.934,1.162,2025,2026,497,21.956308,86.593779,More,Weekly,Quarterly,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Moderate,458,10,256,112,40,50
+15/05/2026 08:46:29,DEMO-F0164,Block A,Village A4,GP A4,,1.481,0.827,2025,2026,311,21.93302,86.569021,Stream,Fortnightly,Rarely,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,Good,281,0,126,75,51,29
+17/04/2026 13:32:40,DEMO-F0165,Block B,Village B3,GP B3,,1.356,0.916,2025,2026,349,22.07551,86.528281,Pond,Fortnightly,Quarterly,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Not yet,Moderate,328,2,191,56,44,37
+24/07/2026 16:40:38,DEMO-F0166,Block A,Village A1,GP A1,,4.681,2.654,2025,2026,1107,21.876568,86.617203,Pond,Fortnightly,Quarterly,Yes,No,Yes,Yes,No,No,No,No,Yes,Yes,Good,1107,0,648,247,81,131
+01/09/2026 11:00:54,DEMO-F0167,Block C,Village C1,GP C1,Male,3.346,2.124,2025,2026,795,22.131643,86.617039,Stream,Fortnightly,Quarterly,No,No,Yes,Yes,No,No,Yes,Yes,Yes,Not yet,Good,735,0,387,197,73,78
+04/04/2026 15:47:59,DEMO-F0168,Block C,Village C3,GP C3,Male,0.072,0.053,2025,2026,23,22.06083,86.740775,Pond,Weekly,Quarterly,Yes,No,No,No,No,No,No,Yes,Yes,No,Good,20,0,14,4,1,1
+19/07/2026 13:26:08,DEMO-F0169,Block A,Village A6,GP A6,Male,0.569,0.53,2025,2026,220,22.102977,86.573584,Water Tanker,Monthly,Monthly,Yes,No,Yes,Yes,No,No,No,Yes,No,Yes,Moderate,193,8,101,44,18,30
+01/09/2026 10:32:41,DEMO-F0170,Block C,Village C7,GP C7,Female,0.951,0.608,2025,2026,226,22.045696,86.754284,"Pond , Water Tanker",Rarely,Quarterly,No,No,Yes,No,No,No,Yes,Yes,Yes,Not yet,Poor,219,0,124,53,17,25
+26/03/2026 08:37:00,DEMO-F0171,Block A,Village A4,GP A4,Male,0.312,0.146,2025,2026,60,21.887131,86.555907,"Pond , Water Tanker",Fortnightly,Monthly,No,No,Yes,Yes,No,No,Yes,Yes,No,Not yet,Moderate,60,0,36,11,5,8
+26/06/2026 15:49:57,DEMO-F0172,Block B,Village B4,GP B4,,0.79,0.767,2025,2026,313,22.145507,86.5215,Canal,Fortnightly,Rarely,Yes,Yes,Yes,Yes,No,Yes,No,No,No,No,Good,269,0,155,58,27,29
+03/04/2026 08:13:44,DEMO-F0173,Block A,Village A3,GP A3,Female,3.691,2.168,2025,2026,903,22.026466,86.605842,Pond,Fortnightly,Monthly,No,No,Yes,Yes,No,No,Yes,Yes,Yes,Not yet,Good,790,0,473,213,52,52
+22/04/2026 12:13:17,DEMO-F0174,Block C,Village C2,GP C2,Male,0.538,0.265,2025,2026,112,22.103229,86.745155,Lift Irrigation from River,Weekly,Monthly,No,No,No,No,No,No,Yes,Yes,Yes,No,Moderate,101,0,54,19,14,14
+20/06/2026 08:20:33,DEMO-F0175,Block A,Village A1,GP A1,Male,1.886,0.954,2025,2026,395,21.978612,86.626235,"Pond , Water Tanker",Weekly,Rarely,Yes,No,Yes,Yes,No,No,No,No,Yes,Not yet,Moderate,376,0,209,82,34,51
+21/05/2026 15:45:18,DEMO-F0176,Block A,Village A3,GP A3,Male,0.693,0.309,2025,2026,125,21.857823,86.607242,"Pond , Water Tanker",Fortnightly,Monthly,No,Yes,No,No,No,No,No,No,Yes,Yes,Good,115,0,65,19,21,10
+05/04/2026 17:53:53,DEMO-F0177,Block B,Village B2,GP B2,Male,0.884,0.385,2025,2026,150,22.086124,86.443186,Pond,Weekly,Quarterly,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No,No,Good,129,7,78,31,8,12
+19/08/2026 11:13:48,DEMO-F0178,Block C,Village C2,GP C2,male,5.698,2.664,2025,2026,1099,22.046319,86.65614,Water Tanker,Monthly,Quarterly,Yes,No,Yes,No,No,No,No,No,No,Yes,Moderate,999,11,608,257,25,109
+27/04/2026 11:08:09,DEMO-F0179,Block C,Village C2,GP C2,Female,0.503,0.432,2025,2026,185,22.005248,86.700806,Water Tanker,Fortnightly,Monthly,No,Yes,Yes,Yes,No,Yes,No,Yes,No,No,Poor,180,5,94,47,22,17
+01/09/2026 13:38:47,DEMO-F0180,Block C,Village C1,GP C1,,1.88,1.068,2025,2026,108,22.105849,86.729586,Pond,Fortnightly,Monthly,Yes,Yes,No,No,No,No,No,Yes,Yes,No,Moderate,108,4,57,29,7,15
+22/04/2026 13:01:11,DEMO-F0181,Block C,Village C5,GP C5,Male,0.257,0.805,2025,2026,54,21.987859,86.699588,Lift Irrigation from River,Weekly,Quarterly,Yes,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Good,51,3,29,15,5,2
+26/06/2026 11:48:57,DEMO-F0182,Block C,Village C7,GP C7,Male,5.246,3.766,2025,2026,1491,22.03389,86.761261,Pond,Rarely,Monthly,No,No,Yes,Yes,No,No,No,Yes,Yes,Not yet,Moderate,1381,5,697,292,194,198
+05/08/2026 11:39:31,DEMO-F0183,Block B,Village B4,GP B4,Male,1.295,1.212,2025,2026,505,22.09314,86.506039,Water Tanker,Weekly,Monthly,Yes,No,Yes,Yes,No,No,No,Yes,No,Yes,Good,450,0,278,93,37,42
+19/06/2026 09:52:36,DEMO-F0184,Block A,Village A3,GP A3,,0.812,0.598,2025,2026,258,21.908436,86.571749,Pond,Weekly,Monthly,No,Yes,No,No,Yes,No,No,Yes,Yes,Yes,Poor,224,0,130,47,25,27
+07/06/2026 10:30:27,DEMO-F0185,Block C,Village C3,GP C3,,2.044,1.183,2025,2026,447,22.11982,86.716095,Water Tanker,Weekly,Quarterly,No,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Good,399,0,201,114,10,74
+09/08/2026 13:51:22,DEMO-F0186,Block C,Village C3,GP C3,Male,0.329,0.198,2025,2026,75,22.115279,86.741293,Pond,Fortnightly,Quarterly,Yes,Yes,No,No,Yes,No,No,Yes,No,Not yet,Good,66,0,35,17,4,10
+22/03/2026 15:20:37,DEMO-F0187,Block A,Village A1,GP A1,,2.62,6.687,2025,2026,822,21.99469,86.636244,Water Tanker,Rarely,Monthly,No,No,No,No,No,Yes,No,No,No,Yes,Moderate,700,0,399,150,81,70
+23/08/2026 15:30:29,DEMO-F0188,Block A,Village A4,GP A4,Male,1.22,0.526,2025,2026,210,21.987619,86.713919,Pond,Weekly,Quarterly,Yes,No,No,No,No,Yes,No,Yes,Yes,No,Good,201,9,110,46,17,28
+29/07/2026 13:09:52,DEMO-F0189,Block C,Village C4,GP C4,,1.454,0.586,2025,2026,237,22.157041,86.696555,"Pond , Water Tanker",Monthly,Quarterly,No,No,Yes,Yes,Yes,No,No,No,No,Not yet,Good,222,0,119,49,29,35
+12/08/2026 15:31:51,DEMO-F0190,Block A,Village A1,GP A1,Male,0.599,0.453,2025,2026,168,21.949904,86.616326,Pond,Weekly,Monthly,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Moderate,155,1,82,31,22,20
+07/06/2026 13:55:12,DEMO-F0191,Block C,Village C3,GP C3,Male,1.04,0.418,2025,2026,165,22.115173,86.751306,Water Tanker,Fortnightly,Quarterly,No,No,No,No,No,No,No,No,Yes,Not yet,Moderate,140,0,84,31,12,13
+01/06/2026 11:33:46,DEMO-F0192,Block A,Village A2,GP A2,,1.355,1.317,2025,2026,534,21.975576,86.618829,Pond,Weekly,Rarely,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Moderate,482,0,253,107,44,78
+03/06/2026 11:33:46,DEMO-F0192,Block A,Village A2,GP A2,,1.355,1.317,2025,2026,534,21.975576,86.618829,Pond,Weekly,Rarely,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Moderate,482,0,253,107,44,78
+06/07/2026 11:32:00,DEMO-F0193,Block A,Village A2,GP A2,Male,2.2,4.95,2025,2026,360,21.957083,86.594969,Pond,Fortnightly,Quarterly,No,No,Yes,Yes,No,No,No,Yes,Yes,Not yet,Good,348,0,205,56,45,42
+19/07/2026 13:11:13,DEMO-F0194,Block C,Village C5,GP C5,Male,3.197,1.267,2025,2026,520,22.08014,86.652537,Pond,Fortnightly,Quarterly,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,Good,502,2,261,127,65,49
+11/09/2026 11:04:35,DEMO-F0195,Block A,Village A4,GP A4,Male,0.712,0.699,2025,2026,289,21.933378,86.594458,Pond,Fortnightly,Quarterly,Yes,No,No,No,No,No,No,Yes,Yes,Not yet,Moderate,250,0,153,44,26,27
+29/08/2026 15:38:16,DEMO-F0196,Block A,Village A4,GP A4,Male,2.483,1.118,2025,2026,457,21.909122,86.566315,Pond,Weekly,Monthly,No,No,Yes,Yes,No,No,No,No,No,Not yet,Good,418,7,234,83,67,34
+30/03/2026 09:51:07,DEMO-F0197,Block B,Village B4,GP B4,,1.233,0.483,2025,2026,202,22.141081,86.43367,Water Tanker,Monthly,Rarely,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes,Good,151,6,83,28,22,18
+17/04/2026 08:32:41,DEMO-F0198,Block C,Village C7,GP C7,,11.022,43.473,2025,2026,1836,22.095299,86.690216,Lift Irrigation from River,Rarely,Rarely,No,No,Yes,Yes,No,No,No,No,No,Yes,Poor,1405,9,802,313,169,121
+15/09/2026 12:54:41,DEMO-F0199,Block A,Village A5,GP A5,,0.439,0.172,2025,2026,69,21.916841,86.567645,Pond,Fortnightly,Rarely,Yes,No,No,No,No,No,Yes,Yes,No,Yes,Poor,60,9,36,12,4,8
+17/09/2026 12:54:41,DEMO-F0199,Block A,Village A5,GP A5,,0.439,0.172,2025,2026,69,21.916841,86.567645,Pond,Fortnightly,Rarely,Yes,No,No,No,No,No,Yes,Yes,No,Yes,Poor,60,9,36,12,4,8
+01/06/2026 08:43:07,DEMO-F0200,Block A,Village A4,GP A4,Male,4.122,2.192,2025,2026,892,21.916888,86.649189,Water Tanker,Fortnightly,Monthly,Yes,No,Yes,No,No,No,Yes,Yes,Yes,Yes,Good,892,0,530,181,93,88
+08/07/2026 09:54:57,DEMO-F0201,Block C,Village C7,GP C7,Male,2.716,2.414,2025,2026,904,22.03948,86.760055,Lift Irrigation from River,Monthly,Quarterly,Yes,No,No,No,No,No,No,No,No,Not yet,Moderate,904,0,494,185,110,115
+30/03/2026 11:45:44,DEMO-F0202,Block C,Village C4,GP C4,Male,0.772,2.963,2025,2026,126,22.148942,86.684806,Pond,Weekly,Monthly,Yes,No,No,No,No,No,No,No,No,Not yet,Moderate,111,2,59,24,13,15
+08/04/2026 08:02:30,DEMO-F0203,Block B,Village B5,GP B5,Male,8.92,4.5,2025,2026,1808,22.123931,86.506989,Water Tanker,Monthly,Quarterly,No,No,No,No,No,No,No,Yes,No,Not yet,Good,1820,0,999,356,229,236
+05/06/2026 10:14:04,DEMO-F0204,Block A,Village A5,GP A5,Male,3.424,1.726,2025,2026,732,21.90686,86.527088,Pond,Weekly,Quarterly,No,No,No,No,No,No,No,No,Yes,Not yet,Moderate,623,0,340,138,47,98
+03/08/2026 13:26:51,DEMO-F0205,Block A,Village A4,GP A4,,2.817,1.689,2025,2026,695,21.990427,86.595283,,Monthly,Quarterly,No,Yes,Yes,Yes,No,No,No,Yes,No,Not yet,Good,631,0,350,114,96,71
+13/08/2026 11:44:47,DEMO-F0206,Block A,Village A6,GP A6,,1.385,0.723,2025,2026,270,21.921978,86.639949,Water Tanker,Weekly,Monthly,Yes,No,Yes,Yes,Yes,No,Yes,No,Yes,Not yet,Good,219,0,117,40,37,25
+05/09/2026 16:57:48,DEMO-F0207,Block A,Village A4,GP A4,,0.723,0.58,2025,2026,235,21.879675,86.661247,"Pond , Water Tanker",Weekly,Rarely,Yes,No,Yes,Yes,Yes,No,No,Yes,No,Yes,Poor,202,0,95,48,22,37
+07/09/2026 16:57:48,DEMO-F0207,Block A,Village A4,GP A4,,0.723,0.58,2025,2026,235,21.879675,86.661247,"Pond , Water Tanker",Weekly,Rarely,Yes,No,Yes,Yes,Yes,No,No,Yes,No,Yes,Poor,202,0,95,48,22,37
+26/04/2026 08:56:15,DEMO-F0208,Block C,Village C6,GP C6,Male,1.275,0.584,2025,2026,223,22.151061,86.694348,"Pond , Water Tanker",Fortnightly,Monthly,No,No,No,No,Yes,No,No,Yes,No,Yes,Moderate,192,0,112,44,12,24
+27/04/2026 15:11:50,DEMO-F0209,Block A,Village A2,GP A2,Male,1.121,1.001,2025,2026,415,21.923145,86.672593,"Pond , Water Tanker",Fortnightly,Monthly,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,Good,407,0,217,105,25,60
+30/06/2026 13:55:12,DEMO-F0210,Block B,Village B5,GP B5,Male,5.391,2.487,2025,2026,1047,22.099555,86.444215,Water Tanker,Monthly,Rarely,No,No,Yes,Yes,No,No,No,Yes,No,Yes,Moderate,897,0,560,171,62,104
+01/07/2026 14:26:32,DEMO-F0211,Block C,Village C5,GP C5,Male,1.957,0.83,2025,2026,337,22.102059,86.667619,Pond,Rarely,Quarterly,Yes,No,No,No,No,Yes,No,Yes,No,Yes,Poor,289,6,164,78,21,26
+26/03/2026 14:43:02,DEMO-F0212,Block B,Village B4,GP B4,Male,0.544,0.31,2025,2026,126,22.177129,86.555483,Water Tanker,Weekly,Quarterly,Yes,No,Yes,Yes,Yes,No,No,Yes,No,Yes,Good,102,0,48,27,21,6
+12/06/2026 08:31:24,DEMO-F0213,Block A,Village A3,GP A3,Male,2.687,1.48,2025,2026,577,21.951002,86.703556,Pond,Weekly,Quarterly,No,No,No,No,No,Yes,No,Yes,Yes,Yes,Poor,500,8,275,110,65,50
+06/09/2026 15:55:06,DEMO-F0214,Block C,Village C7,GP C7,Male,2.422,1.615,2025,2026,640,22.040044,86.754672,Pond,Fortnightly,Monthly,Yes,No,Yes,No,No,No,No,No,Yes,No,Poor,586,0,341,109,75,61
+20/04/2026 11:18:49,DEMO-F0215,Block C,Village C1,GP C1,,3.24,1.27,2025,2026,538,22.127194,86.727983,Pond,Fortnightly,Monthly,No,No,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Good,490,4,256,131,49,54
+22/08/2026 14:30:18,DEMO-F0216,Block C,Village C1,GP C1,Male,2.994,1.378,2025,2026,571,22.075751,86.620241,Water Tanker,Fortnightly,Quarterly,Yes,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Moderate,546,6,321,125,29,71
+12/06/2026 10:56:22,DEMO-F0217,Block A,Village A4,GP A4,,0.878,1.972,2025,2026,221,22.044396,86.518878,Water Tanker,Monthly,Quarterly,Yes,No,Yes,No,No,No,No,No,No,Yes,Moderate,200,0,133,25,14,28
+27/06/2026 11:57:49,DEMO-F0218,Block A,Village A5,GP A5,Male,0.39,0.305,2025,2026,119,21.949944,86.62647,Pond,Monthly,Quarterly,Yes,No,Yes,Yes,Yes,No,Yes,No,Yes,No,Moderate,98,0,54,24,8,12
+19/07/2026 15:00:01,DEMO-F0219,Block C,Village C6,GP C6,Female,0.436,0.323,2025,2026,120,21.988248,86.712097,Canal,Weekly,Monthly,Yes,No,No,No,No,No,Yes,No,No,Not yet,Good,111,9,64,25,13,9
+01/08/2026 17:20:57,DEMO-F0220,Block A,Village A3,GP A3,Male,0.282,0.162,2025,2026,61,21.967868,86.564708,Water Tanker,Fortnightly,Quarterly,No,Yes,Yes,No,No,No,No,Yes,No,Not yet,Good,53,4,30,13,5,5
+19/07/2026 16:46:46,DEMO-F0221,Block A,Village A4,GP A4,Male,2.187,0.872,2025,2026,332,22.04723,86.623277,Stream,Fortnightly,Quarterly,Yes,No,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Good,314,0,176,75,36,27
+08/04/2026 15:15:47,DEMO-F0222,Block B,Village B3,GP B3,Male,1.422,0.654,2025,2026,256,22.198796,86.525757,Pond,Fortnightly,Monthly,No,Yes,No,No,No,Yes,No,Yes,Yes,Yes,Moderate,214,0,131,49,14,20
+15/05/2026 13:23:07,DEMO-F0223,Block C,Village C7,GP C7,Male,0.637,0.474,2025,2026,203,22.191548,86.777221,Water Tanker,Weekly,Monthly,No,Yes,No,No,No,No,No,Yes,No,Yes,Moderate,184,0,103,58,11,12
+27/08/2026 13:16:36,DEMO-F0224,Block C,Village C5,GP C5,,0.116,0.049,2025,2026,20,22.049012,86.73683,Pond,Fortnightly,Quarterly,Yes,No,Yes,Yes,No,No,No,No,No,Yes,Moderate,20,0,7,5,5,3
+27/03/2026 17:39:22,DEMO-F0225,Block A,Village A3,GP A3,Male,0.368,0.229,2025,2026,88,21.995608,86.68142,Water Tanker,Fortnightly,Quarterly,Yes,No,No,No,No,No,No,Yes,No,Yes,Moderate,73,0,42,16,6,9
+02/08/2026 10:04:06,DEMO-F0226,Block C,Village C7,GP C7,Female,4.565,1.932,2025,2026,724,22.0639,86.7304,Pond,Weekly,Quarterly,Yes,No,Yes,Yes,No,No,Yes,Yes,Yes,Not yet,Good,704,0,371,143,58,132
+26/06/2026 17:32:26,DEMO-F0227,Block A,Village A1,GP A1,Male,0.537,0.387,2025,2026,151,21.961214,86.614233,,Monthly,Quarterly,No,No,Yes,Yes,No,No,No,No,No,Yes,Good,148,1,68,31,27,22
+11/04/2026 14:29:23,DEMO-F0228,Block B,Village B5,GP B5,Male,1.94,0.975,2025,2026,410,22.056352,86.573216,Lift Irrigation from River,Weekly,Quarterly,No,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Moderate,379,0,193,98,39,49
+12/04/2026 14:09:40,DEMO-F0229,Block B,Village B1,GP B1,Male,0.501,0.202,2025,2026,79,22.087777,86.471078,Pond,Fortnightly,Monthly,Yes,No,No,No,No,No,No,Yes,No,Not yet,Moderate,69,1,43,14,8,4
+22/09/2026 13:55:01,DEMO-F0230,Block A,Village A2,GP A2,Male,3.633,2.572,2025,2026,1074,21.916188,86.760722,Pond,Fortnightly,Quarterly,No,No,Yes,No,No,No,No,No,Yes,No,Moderate,974,0,549,173,138,114
+25/03/2026 16:07:29,DEMO-F0231,Block A,Village A5,GP A5,,1.305,0.619,2025,2026,260,21.994928,86.638763,"Pond , Water Tanker",Monthly,Monthly,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Good,242,0,129,48,32,33
+24/03/2026 14:49:59,DEMO-F0232,Block B,Village B4,GP B4,,2.36,0.915,2025,2026,343,22.160036,86.539041,More,Weekly,Quarterly,Yes,No,No,No,No,No,No,Yes,No,Yes,Good,288,10,174,35,46,33
+23/03/2026 08:56:53,DEMO-F0233,Block C,Village C7,GP C7,,5.584,4.5,2025,2026,1831,22.113841,86.756255,More,Weekly,Monthly,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,Not yet,Poor,1728,0,990,388,169,181
+17/07/2026 15:48:40,DEMO-F0234,Block B,Village B4,GP B4,Male,3.149,2.759,2025,2026,1185,22.052479,86.613857,Water Tanker,Weekly,Monthly,No,Yes,Yes,No,No,No,No,No,No,Yes,Good,1075,0,628,204,153,90
+12/09/2026 15:17:14,DEMO-F0235,Block C,Village C5,GP C5,Male,1.112,0.535,2025,2026,211,22.084418,86.769625,Pond,Fortnightly,Quarterly,Yes,Yes,No,No,No,No,No,No,No,Not yet,Good,200,0,96,45,33,26
+21/04/2026 17:09:01,DEMO-F0236,Block C,Village C3,GP C3,,0.637,0.413,2025,2026,153,22.062694,86.649747,Water Tanker,Weekly,Quarterly,Yes,No,Yes,Yes,No,No,Yes,Yes,Yes,Not yet,Moderate,144,0,77,30,18,19
+18/08/2026 17:21:53,DEMO-F0237,Block B,Village B1,GP B1,Male,0.586,0.526,2025,2026,225,22.163484,86.590174,Pond,Monthly,Quarterly,Yes,No,Yes,Yes,No,No,No,No,Yes,Yes,Moderate,211,3,114,48,24,25
+03/08/2026 17:29:26,DEMO-F0238,Block C,Village C1,GP C1,Male,1.963,1.115,2025,2026,473,22.158909,86.712955,Canal,Weekly,Quarterly,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Not yet,Poor,448,3,249,110,58,31
+05/08/2026 17:29:26,DEMO-F0238,Block C,Village C1,GP C1,Male,1.963,1.115,2025,2026,473,22.158909,86.712955,Canal,Weekly,Quarterly,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Not yet,Poor,448,3,249,110,58,31
+02/05/2026 08:25:39,DEMO-F0239,Block A,Village A2,GP A2,Male,1.414,0.641,2025,2026,257,22.002819,86.625358,Pond,Weekly,Rarely,Yes,No,No,No,Yes,No,No,Yes,No,Yes,Poor,224,0,103,55,41,25
+02/04/2026 14:18:06,DEMO-F0240,Block A,Village A1,GP A1,,0.719,0.494,2025,2026,199,21.912239,86.556037,Pond,Fortnightly,Rarely,Yes,No,Yes,No,No,No,No,No,No,Yes,Moderate,183,11,113,36,17,17
+20/06/2026 17:20:38,DEMO-F0241,Block C,Village C4,GP C4,Female,4.054,2.639,2025,2026,1007,21.963023,86.75631,Water Tanker,Monthly,Rarely,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,Good,903,9,470,247,85,101
+04/04/2026 17:39:34,DEMO-F0242,Block C,Village C6,GP C6,,1.497,0.636,2025,2026,267,22.011652,86.697431,"Pond , Water Tanker",Monthly,Quarterly,No,No,Yes,Yes,Yes,No,No,Yes,Yes,Not yet,Moderate,256,0,131,64,30,31
+10/04/2026 13:29:34,DEMO-F0243,Block A,Village A6,GP A6,,8.245,4.5,2025,2026,1800,22.021081,86.625008,Canal,Monthly,Quarterly,Yes,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Poor,1603,7,901,323,175,204
+16/06/2026 17:06:51,DEMO-F0244,Block B,Village B3,GP B3,Male,1.797,0.765,2025,2026,283,22.099937,86.505795,"Pond , Water Tanker",Fortnightly,Quarterly,No,No,No,No,No,No,No,Yes,No,Yes,Good,231,0,121,69,20,21
+21/08/2026 16:48:15,DEMO-F0245,Block B,Village B5,GP B5,,6.024,3.514,2025,2026,1447,22.082464,86.616251,Lift Irrigation from River,Monthly,Quarterly,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Not yet,Poor,1360,0,743,340,170,107
+24/09/2026 08:01:34,DEMO-F0246,Block C,Village C7,GP C7,Male,2.454,0.972,2025,2026,417,22.182133,86.829113,Lift Irrigation from River,Fortnightly,Quarterly,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,Moderate,405,0,236,92,39,38
+17/07/2026 16:50:59,DEMO-F0247,Block B,Village B5,GP B5,Female,3.421,1.676,2025,2026,706,22.183258,86.522326,Water Tanker,Weekly,Quarterly,No,No,Yes,Yes,No,No,No,Yes,No,Not yet,Good,580,10,284,178,57,61
+11/05/2026 14:22:34,DEMO-F0248,Block B,Village B3,GP B3,Male,0.435,0.367,2025,2026,142,22.121222,86.523199,"Pond , Water Tanker",Fortnightly,Monthly,No,Yes,Yes,No,Yes,No,No,Yes,Yes,Not yet,Moderate,125,0,71,34,11,9
+21/05/2026 13:44:14,DEMO-F0249,Block A,Village A2,GP A2,,0.79,0.327,2025,2026,121,21.93533,86.601328,Water Tanker,Monthly,Monthly,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,Not yet,Moderate,111,0,58,29,8,16
+14/07/2026 09:47:04,DEMO-F0250,Block B,Village B5,GP B5,Male,1.9,1.066,2025,2026,456,22.113395,86.5753,Water Tanker,Weekly,Rarely,No,No,No,No,Yes,No,Yes,No,No,Not yet,Good,299,0,163,52,31,53
+21/04/2026 17:11:12,DEMO-F0251,Block C,Village C2,GP C2,Male,2.104,1.715,2025,2026,734,22.111358,86.713554,Lift Irrigation from River,Fortnightly,Monthly,No,Yes,Yes,Yes,No,No,Yes,Yes,No,Not yet,Good,734,0,390,157,85,102
+26/06/2026 10:57:06,DEMO-F0252,Block C,Village C3,GP C3,female,0.91,0.731,2025,2026,294,22.180002,86.708933,Water Tanker,Fortnightly,Quarterly,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Moderate,226,0,145,30,16,35
+13/08/2026 12:10:41,DEMO-F0253,Block B,Village B1,GP B1,Male,0.464,0.848,2025,2026,90,22.141123,86.56893,Pond,Fortnightly,Quarterly,No,No,Yes,Yes,No,Yes,No,Yes,No,Not yet,Good,80,10,46,14,6,14
+27/08/2026 10:58:30,DEMO-F0254,Block A,Village A5,GP A5,Male,0.223,0.207,2025,2026,82,21.986301,86.593085,Water Tanker,Weekly,Monthly,No,No,Yes,Yes,No,No,Yes,Yes,Yes,Not yet,Good,81,1,41,20,12,8
+31/03/2026 17:41:47,DEMO-F0255,Block A,Village A4,GP A4,Female,0.284,0.195,2025,2026,77,22.008464,86.618112,Water Tanker,Fortnightly,Rarely,Yes,No,Yes,Yes,No,No,Yes,No,No,Not yet,Moderate,67,0,33,19,9,6
+13/05/2026 12:49:52,DEMO-F0256,Block C,Village C1,GP C1,Male,0.176,0.144,2025,2026,54,22.041516,86.650934,Stream,Monthly,Monthly,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Not yet,Moderate,51,3,25,14,5,7
+07/05/2026 09:08:24,DEMO-F0257,Block C,Village C2,GP C2,,1.327,0.778,2025,2026,291,22.137743,86.76521,Water Tanker,Weekly,Rarely,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,Moderate,250,0,110,79,37,24
+03/07/2026 08:06:31,DEMO-F0258,Block A,Village A4,GP A4,Male,3.226,1.94,2025,2026,743,21.935272,86.717043,Stream,Fortnightly,Quarterly,Yes,No,No,No,No,No,No,Yes,Yes,No,Poor,610,0,327,155,81,47
+24/04/2026 17:48:06,DEMO-F0259,Block A,Village A4,GP A4,,1.277,0.696,2025,2026,293,21.824195,86.656061,Water Tanker,Weekly,Monthly,No,No,No,No,No,No,Yes,Yes,No,Yes,Poor,256,10,149,47,25,38
+16/09/2026 10:21:28,DEMO-F0260,Block B,Village B5,GP B5,Male,0.133,0.092,2025,2026,35,22.013592,86.59309,Canal,Weekly,Monthly,No,Yes,Yes,Yes,No,No,Yes,Yes,No,No,Moderate,32,0,18,5,6,3
+10/09/2026 15:42:25,DEMO-F0261,Block A,Village A2,GP A2,Female,0.624,0.594,2025,2026,227,21.899094,86.577695,Pond,Rarely,Quarterly,No,No,No,No,No,No,No,Yes,Yes,Not yet,Good,212,0,118,36,25,33
+22/05/2026 08:17:28,DEMO-F0262,Block C,Village C7,GP C7,Female,1.208,0.609,2025,2026,245,22.126561,86.741816,"Pond , Water Tanker",Fortnightly,Quarterly,No,No,Yes,Yes,No,No,No,No,Yes,Not yet,Moderate,228,4,101,49,27,51
+05/06/2026 16:58:04,DEMO-F0263,Block A,Village A3,GP A3,Male,7.191,4.5,2025,2026,1718,21.95569,86.572842,Water Tanker,Fortnightly,Monthly,No,No,Yes,No,No,No,No,Yes,No,Yes,Good,1554,0,853,342,140,219
+11/06/2026 14:30:20,DEMO-F0264,Block A,Village A5,GP A5,,0.388,0.766,2025,2026,72,21.959218,86.608612,Pond,Weekly,Rarely,Yes,No,No,No,No,No,No,Yes,Yes,No,Moderate,60,0,33,12,8,7
+28/03/2026 10:14:50,DEMO-F0265,Block C,Village C2,GP C2,Male,0.582,0.496,2025,2026,200,22.197547,86.768611,Pond,Rarely,Monthly,No,No,Yes,Yes,No,No,No,Yes,No,Not yet,Moderate,176,0,99,36,19,22
+04/09/2026 16:53:34,DEMO-F0266,Block A,Village A1,GP A1,Male,3.344,3.272,2025,2026,1281,21.886546,86.625091,Pond,Weekly,Rarely,No,Yes,Yes,Yes,Yes,No,No,Yes,No,No,Good,1159,0,663,196,154,146
+15/08/2026 10:58:41,DEMO-F0267,Block A,Village A1,GP A1,Female,1.477,1.057,2025,2026,431,21.948628,86.549368,Water Tanker,Monthly,Monthly,No,Yes,No,No,Yes,No,No,No,Yes,Not yet,Moderate,350,0,184,66,47,53
+22/05/2026 17:58:40,DEMO-F0268,Block A,Village A3,GP A3,,2.025,1.17,2025,2026,499,21.965222,86.554249,Canal,Weekly,Rarely,No,No,Yes,Yes,Yes,No,No,Yes,Yes,Not yet,Moderate,423,0,241,107,46,29
+02/07/2026 13:59:42,DEMO-F0269,Block A,Village A6,GP A6,Male,1.273,0.781,2025,2026,295,21.913186,86.550942,"Pond , Water Tanker",Weekly,Monthly,Yes,No,No,No,No,No,No,Yes,No,Yes,Poor,265,1,144,69,26,26
+31/05/2026 12:29:08,DEMO-F0270,Block A,Village A1,GP A1,Male,2.177,0.948,2025,2026,404,21.951416,86.644573,Lift Irrigation from River,Fortnightly,Quarterly,Yes,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Good,383,10,233,68,31,51
+02/05/2026 08:35:06,DEMO-F0271,Block A,Village A3,GP A3,,2.277,1.419,2025,2026,604,21.870003,86.723195,More,Weekly,Quarterly,Yes,No,No,No,No,No,No,No,No,Not yet,Poor,514,0,272,136,58,48
+16/05/2026 10:36:05,DEMO-F0272,Block A,Village A1,GP A1,,0.629,0.34,2025,2026,143,22.020495,86.688123,Water Tanker,Fortnightly,Monthly,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No,Good,124,0,68,34,8,14
+09/04/2026 08:34:58,DEMO-F0273,Block A,Village A6,GP A6,,3.028,1.553,2025,2026,634,21.915919,86.525201,Stream,Weekly,Rarely,No,Yes,Yes,Yes,No,No,No,No,Yes,Not yet,Moderate,564,0,329,108,54,73
+20/08/2026 16:31:51,DEMO-F0274,Block B,Village B4,GP B4,Male,0.212,0.205,2025,2026,84,22.22157,86.591054,,Monthly,Monthly,No,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,Poor,74,0,46,13,6,9
+22/07/2026 09:00:06,DEMO-F0275,Block C,Village C6,GP C6,Female,1.728,0.947,2025,2026,387,22.098376,86.77682,Pond,Monthly,Quarterly,Yes,Yes,No,No,No,No,No,No,Yes,Yes,Good,344,0,226,81,12,25
+12/09/2026 09:07:53,DEMO-F0276,Block A,Village A5,GP A5,Male,1.285,0.828,2025,2026,341,22.001403,86.542735,"Pond , Water Tanker",Monthly,Quarterly,Yes,No,Yes,Yes,No,No,No,No,No,Yes,Good,333,0,174,71,59,35
+21/03/2026 09:14:41,DEMO-F0277,Block A,Village A4,GP A4,,0.678,0.405,2025,2026,149,21.947335,86.60484,Water Tanker,Weekly,Quarterly,No,No,No,No,No,No,No,Yes,Yes,Not yet,Moderate,131,0,75,25,11,20
+17/07/2026 17:44:32,DEMO-F0278,Block B,Village B4,GP B4,Male,0.801,0.69,2025,2026,296,22.118463,86.574776,Stream,Monthly,Monthly,Yes,No,Yes,Yes,No,No,No,No,No,Not yet,Moderate,257,7,163,42,23,29
+04/07/2026 17:42:20,DEMO-F0279,Block C,Village C1,GP C1,,0.906,0.402,2025,2026,163,22.070799,86.757522,"Pond , Water Tanker",Rarely,Monthly,No,No,Yes,Yes,No,No,No,No,No,Not yet,Good,151,0,81,28,15,27
+16/07/2026 15:08:54,DEMO-F0280,Block C,Village C7,GP C7,Male,0.675,0.269,2025,2026,112,22.105956,86.664545,Lift Irrigation from River,Weekly,Monthly,Yes,No,Yes,Yes,No,No,Yes,No,Yes,No,Moderate,112,0,71,24,6,11
+24/09/2026 08:44:14,DEMO-F0281,Block A,Village A5,GP A5,Female,0.531,0.513,2025,2026,201,21.9659,86.650537,Pond,Weekly,Quarterly,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Not yet,Moderate,198,3,116,35,23,24
+02/06/2026 13:02:21,DEMO-F0282,Block A,Village A5,GP A5,,0.512,0.261,2025,2026,96,21.910787,86.513125,Lift Irrigation from River,Monthly,Monthly,Yes,No,No,No,No,No,Yes,No,No,Yes,Good,84,8,41,15,15,13
+15/04/2026 17:29:02,DEMO-F0283,Block A,Village A3,GP A3,Male,2.093,0.942,2025,2026,377,21.943748,86.608859,Pond,Weekly,Rarely,No,No,Yes,Yes,No,No,No,Yes,No,Not yet,Moderate,333,2,203,61,28,41
+22/03/2026 08:57:59,DEMO-F0284,Block A,Village A5,GP A5,,0.364,0.25,2025,2026,100,21.919495,86.676898,Canal,Fortnightly,Quarterly,Yes,No,Yes,No,No,No,No,No,No,Not yet,Good,93,0,65,20,3,5
+21/06/2026 15:56:09,DEMO-F0285,Block B,Village B2,GP B2,Male,3.022,1.337,2025,2026,529,22.234983,86.52092,Pond,Monthly,Quarterly,No,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Good,472,0,213,119,73,67
+22/04/2026 08:10:55,DEMO-F0286,Block B,Village B1,GP B1,Female,0.489,0.243,2025,2026,95,22.115513,86.495053,Lift Irrigation from River,Weekly,Quarterly,Yes,Yes,Yes,No,No,No,No,Yes,No,Not yet,Moderate,86,0,46,22,4,14
+15/04/2026 16:02:21,DEMO-F0287,Block A,Village A6,GP A6,Male,1.052,3.154,2025,2026,162,22.027262,86.664467,"Pond , Water Tanker",Fortnightly,Monthly,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,Good,159,0,69,46,24,20
+17/04/2026 13:26:43,DEMO-F0288,Block A,Village A2,GP A2,Male,1.033,0.402,2025,2026,162,21.940219,86.668738,Pond,Fortnightly,Quarterly,No,Yes,No,No,No,No,No,Yes,No,Yes,Poor,160,2,85,31,12,32
+11/05/2026 16:52:44,DEMO-F0289,Block B,Village B1,GP B1,Male,2.479,2.322,2025,2026,910,22.132964,86.585502,Water Tanker,Weekly,Monthly,Yes,No,Yes,Yes,No,No,No,Yes,Yes,No,Moderate,791,0,390,193,87,121
+11/04/2026 12:08:18,DEMO-F0290,Block A,Village A4,GP A4,Male,1.625,0.949,2025,2026,408,21.883932,86.663717,Lift Irrigation from River,Monthly,Quarterly,Yes,Yes,Yes,Yes,No,No,No,Yes,No,Not yet,Moderate,407,0,221,106,49,31
+20/06/2026 15:51:11,DEMO-F0291,Block C,Village C2,GP C2,Male,1.091,0.582,2025,2026,221,22.077646,86.784069,Water Tanker,Weekly,Quarterly,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Good,197,0,91,61,27,18
+22/07/2026 16:25:35,DEMO-F0292,Block A,Village A6,GP A6,Female,1.363,1.104,2025,2026,429,21.960527,86.656645,Pond,Fortnightly,Quarterly,No,Yes,Yes,Yes,No,No,No,No,No,Not yet,Good,402,0,194,114,50,44
+13/05/2026 11:14:56,DEMO-F0293,Block C,Village C4,GP C4,Female,0.163,0.106,2025,2026,41,22.1793,86.743276,Pond,Monthly,Rarely,Yes,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Moderate,37,4,25,5,3,4
+14/04/2026 14:25:22,DEMO-F0294,Block A,Village A1,GP A1,Female,1.749,0.678,2025,2026,273,21.961099,86.624475,Water Tanker,Weekly,Monthly,Yes,No,Yes,Yes,No,No,No,Yes,No,Not yet,Moderate,242,6,121,71,25,25
+06/07/2026 12:36:32,DEMO-F0295,Block C,Village C7,GP C7,Male,4.364,4.254,2025,2026,1701,22.169186,86.718137,Lift Irrigation from River,Monthly,Quarterly,No,No,Yes,Yes,No,Yes,Yes,No,Yes,Not yet,Moderate,1701,0,905,398,187,211
+05/04/2026 12:19:08,DEMO-F0296,Block C,Village C4,GP C4,Male,1.369,0.794,2025,2026,325,22.132036,86.669382,Water Tanker,Weekly,Monthly,No,No,No,No,Yes,No,No,No,No,Yes,Good,259,0,163,41,32,23
+07/08/2026 15:59:50,DEMO-F0297,Block C,Village C2,GP C2,FEMALE,1.759,0.749,2025,2026,321,22.18137,86.682234,Pond,Fortnightly,Quarterly,No,Yes,No,No,Yes,No,No,Yes,Yes,Not yet,Good,270,5,149,71,14,36
+31/05/2026 10:15:36,DEMO-F0298,Block C,Village C5,GP C5,,1.752,1.154,2025,2026,446,22.097048,86.715899,Water Tanker,Weekly,Quarterly,No,No,No,No,No,No,Yes,Yes,Yes,Not yet,Good,373,0,214,100,29,37
+05/06/2026 09:11:47,DEMO-F0299,Block C,Village C4,GP C4,,2.789,1.578,2025,2026,651,22.219511,86.742073,Water Tanker,Fortnightly,Monthly,No,Yes,No,No,No,No,No,Yes,No,No,Moderate,549,0,274,160,54,61
+06/05/2026 12:48:15,DEMO-F0300,Block B,Village B1,GP B1,Male,0.3,0.117,2025,2026,43,22.09573,86.592041,Pond,Monthly,Quarterly,Yes,Yes,Yes,No,No,No,No,Yes,Yes,Yes,Good,38,0,22,7,5,4
+12/05/2026 16:12:59,DEMO-F0301,Block C,Village C6,GP C6,Female,0.273,0.155,2025,2026,60,22.061677,86.72791,Canal,Monthly,Quarterly,Yes,No,No,No,Yes,Yes,No,Yes,Yes,Yes,Moderate,46,5,34,5,10,7
+16/04/2026 09:37:47,DEMO-F0302,Block A,Village A3,GP A3,Male,1.03,0.852,2025,2026,339,21.889497,86.670174,Water Tanker,Rarely,Monthly,No,Yes,Yes,Yes,No,No,Yes,Yes,No,Not yet,Moderate,292,0,146,70,28,48
+04/07/2026 11:24:07,DEMO-F0303,Block B,Village B4,GP B4,Male,0.401,0.37,2025,2026,137,22.236551,86.573966,Water Tanker,Fortnightly,Rarely,No,Yes,Yes,Yes,No,Yes,No,Yes,No,Not yet,Good,144,0,84,35,9,16
+16/04/2026 14:40:12,DEMO-F0304,Block B,Village B5,GP B5,Male,5.767,2.295,2025,2026,935,22.160972,86.508428,"Pond , Water Tanker",Monthly,Quarterly,No,No,Yes,Yes,No,No,No,Yes,No,Not yet,Moderate,890,0,526,199,96,69
+27/07/2026 12:46:06,DEMO-F0305,Block C,Village C5,GP C5,Male,0.757,0.531,2025,2026,218,22.083294,86.759735,Water Tanker,Fortnightly,Quarterly,No,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Not yet,Moderate,193,9,113,37,24,19
+07/05/2026 14:03:26,DEMO-F0306,Block B,Village B4,GP B4,Female,0.224,0.124,2025,2026,52,22.182451,86.507824,Lift Irrigation from River,Monthly,Quarterly,Yes,Yes,No,No,No,No,No,No,Yes,Not yet,Poor,44,0,22,16,2,4
+05/07/2026 13:16:48,DEMO-F0307,Block A,Village A2,GP A2,,0.258,0.225,2025,2026,90,21.984385,86.686107,Pond,Fortnightly,Rarely,No,No,No,No,No,No,No,Yes,No,Yes,Good,77,7,25,30,8,14
+30/06/2026 16:06:02,DEMO-F0308,Block B,Village B2,GP B2,Male,0.099,0.059,2025,2026,24,22.218306,86.551792,Pond,Monthly,Monthly,No,No,Yes,Yes,No,Yes,No,Yes,Yes,No,Moderate,22,2,11,4,2,5
+18/07/2026 16:45:09,DEMO-F0309,Block A,Village A3,GP A3,Male,1.421,0.571,2025,2026,225,21.872608,86.560476,Pond,Weekly,Quarterly,Yes,Yes,Yes,Yes,No,No,No,No,No,Not yet,Good,225,0,143,33,7,42
+11/08/2026 12:29:43,DEMO-F0310,Block A,Village A6,GP A6,,1.073,0.595,2025,2026,221,21.936732,86.628076,Canal,Fortnightly,Quarterly,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Moderate,207,5,113,48,16,30
+04/07/2026 12:18:58,DEMO-F0311,Block B,Village B3,GP B3,,1.228,0.481,2025,2026,180,22.096874,86.602406,Stream,Monthly,Quarterly,No,No,Yes,No,No,No,No,Yes,No,Yes,Moderate,155,9,95,34,17,9
+29/08/2026 10:47:11,DEMO-F0312,Block B,Village B2,GP B2,Female,2.632,1.861,2025,2026,763,22.021316,86.510938,Pond,Weekly,Quarterly,Yes,No,No,No,No,No,No,Yes,No,Not yet,Good,622,0,348,135,80,69
+08/05/2026 12:26:14,DEMO-F0313,Block A,Village A5,GP A5,Male,3.745,2.072,2025,2026,895,22.003016,86.642386,More,Weekly,Rarely,No,No,No,No,No,Yes,Yes,Yes,Yes,Not yet,Moderate,726,0,414,163,57,92
+09/08/2026 16:21:50,DEMO-F0314,Block A,Village A6,GP A6,Female,1.437,3.688,2025,2026,223,21.93648,86.647294,Water Tanker,Rarely,Quarterly,No,No,Yes,Yes,No,No,No,Yes,Yes,Not yet,Moderate,197,5,114,41,21,21
+24/05/2026 13:00:59,DEMO-F0315,Block A,Village A6,GP A6,Male,0.177,0.103,2025,2026,42,21.986982,86.568169,Lift Irrigation from River,Fortnightly,Quarterly,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Good,41,1,22,9,3,7
+17/07/2026 14:54:35,DEMO-F0316,Block A,Village A2,GP A2,male,1.777,1.228,2025,2026,511,22.067989,86.645535,Lift Irrigation from River,Weekly,Quarterly,Yes,No,Yes,Yes,No,No,No,Yes,Yes,Not yet,Moderate,511,0,312,97,37,65
+21/06/2026 12:11:02,DEMO-F0317,Block A,Village A5,GP A5,Male,2.752,1.162,2025,2026,489,21.932338,86.550308,Lift Irrigation from River,Weekly,Rarely,No,No,Yes,Yes,No,No,No,Yes,No,Yes,Good,475,0,214,145,71,45
+08/09/2026 15:04:01,DEMO-F0318,Block C,Village C5,GP C5,Female,1.512,0.931,2025,2026,375,22.078942,86.698719,"Pond , Water Tanker",Fortnightly,Rarely,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes,Poor,375,0,196,89,56,34
+10/05/2026 15:07:27,DEMO-F0319,Block A,Village A3,GP A3,Male,3.153,1.705,2025,2026,174,21.955933,86.673786,Pond,Fortnightly,Quarterly,No,No,Yes,Yes,No,No,No,Yes,Yes,Not yet,Moderate,174,0,104,35,19,16
+26/06/2026 13:16:51,DEMO-F0320,Block C,Village C3,GP C3,Male,0.633,0.247,2025,2026,102,22.149362,86.747838,Lift Irrigation from River,Rarely,Monthly,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Not yet,Moderate,94,0,40,22,17,15
+20/04/2026 17:20:41,DEMO-F0321,Block C,Village C1,GP C1,,5.579,4.297,2025,2026,1818,22.071664,86.714776,,Rarely,Monthly,No,No,Yes,Yes,No,No,No,Yes,No,Not yet,Poor,1505,9,778,403,169,155
+18/07/2026 16:45:35,DEMO-F0322,Block B,Village B2,GP B2,Female,0.44,0.297,2025,2026,112,22.088452,86.542323,Water Tanker,,,,,,,,,,,,,,101,8,58,21,7,15
+27/03/2026 09:35:03,DEMO-F0323,Block A,Village A4,GP A4,Male,1.452,1.383,2025,2026,591,22.002859,86.616995,"Pond , Water Tanker",Fortnightly,Rarely,No,No,No,No,No,No,No,No,Yes,Not yet,Good,523,7,278,115,64,66
+06/06/2026 10:16:40,DEMO-F0324,Block B,Village B5,GP B5,,0.251,0.154,2025,2026,57,22.138932,86.520629,Pond,Weekly,Quarterly,No,No,Yes,Yes,No,Yes,No,No,No,Yes,Good,53,4,33,10,6,4
+21/03/2026 17:32:52,DEMO-F0325,Block C,Village C7,GP C7,,0.403,0.305,2025,2026,129,21.997764,86.762841,Canal,Monthly,Monthly,Yes,No,No,No,No,No,Yes,Yes,Yes,Yes,Good,114,2,52,23,17,22
+21/05/2026 12:01:00,DEMO-F0326,Block C,Village C2,GP C2,Male,5.761,2.759,2025,2026,1029,22.03873,86.693632,Canal,Weekly,Monthly,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Not yet,Poor,961,0,518,269,81,93
+23/05/2026 12:01:00,DEMO-F0326,Block C,Village C2,GP C2,Male,5.761,2.759,2025,2026,1029,22.03873,86.693632,Canal,Weekly,Monthly,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Not yet,Poor,961,0,518,269,81,93
+19/06/2026 11:06:14,DEMO-F0327,Block C,Village C5,GP C5,Male,0.719,0.557,2025,2026,212,22.175062,86.732017,"Pond , Water Tanker",Weekly,Quarterly,Yes,No,Yes,Yes,No,No,No,No,No,Not yet,Poor,210,2,101,65,27,17
+22/05/2026 15:57:44,DEMO-F0328,Block B,Village B1,GP B1,Male,3.122,1.501,2025,2026,553,22.140096,86.504387,Water Tanker,Rarely,Rarely,No,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Moderate,434,0,249,85,55,45
+01/06/2026 14:01:17,DEMO-F0329,Block B,Village B4,GP B4,Female,1.24,0.872,2025,2026,346,22.08189,86.44072,,Monthly,Monthly,Yes,Yes,Yes,No,No,No,Yes,No,No,Yes,Good,292,0,164,54,30,44
+17/04/2026 09:19:46,DEMO-F0330,Block A,Village A3,GP A3,Male,1.005,1.74,2025,2026,250,21.94148,86.573977,Stream,Weekly,Quarterly,No,No,Yes,Yes,No,No,No,Yes,No,Yes,Good,247,0,121,61,38,27
+02/08/2026 08:55:04,DEMO-F0331,Block C,Village C4,GP C4,Male,3.747,2.405,2025,2026,911,22.100662,86.80841,Canal,Fortnightly,Quarterly,Yes,Yes,Yes,Yes,No,No,No,Yes,No,Yes,Poor,911,0,447,196,122,146
+18/08/2026 16:04:51,DEMO-F0332,Block A,Village A5,GP A5,,1.224,0.57,2025,2026,226,21.986787,86.639236,Water Tanker,Fortnightly,Rarely,No,No,Yes,Yes,No,No,Yes,Yes,Yes,Not yet,Good,189,6,106,39,31,13
+14/06/2026 15:38:54,DEMO-F0333,Block C,Village C3,GP C3,,0.248,0.142,2025,2026,56,22.032087,86.663821,Canal,Weekly,Monthly,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Moderate,54,0,25,10,8,11
+30/03/2026 11:31:33,DEMO-F0334,Block C,Village C6,GP C6,,0.54,0.342,2025,2026,143,22.057953,86.652982,Pond,Weekly,Rarely,Yes,No,Yes,No,No,No,No,No,Yes,No,Good,117,2,69,23,13,12
+31/03/2026 16:37:28,DEMO-F0335,Block A,Village A4,GP A4,,2.735,1.157,2025,2026,492,21.963648,86.614392,Lift Irrigation from River,Weekly,Quarterly,Yes,No,Yes,Yes,No,No,No,Yes,Yes,Not yet,Good,490,0,247,85,64,94
+26/07/2026 09:15:18,DEMO-F0336,Block B,Village B5,GP B5,,1.927,1.006,2025,2026,412,22.115008,86.598059,Stream,,,,,,,,,,,,,,315,0,195,75,18,27
+12/09/2026 16:41:25,DEMO-F0337,Block A,Village A4,GP A4,,0.231,0.172,2025,2026,65,21.978593,86.610662,Water Tanker,Fortnightly,Monthly,No,No,Yes,Yes,No,No,Yes,No,No,No,Poor,58,0,31,10,6,11
+31/08/2026 08:47:29,DEMO-F0338,Block C,Village C3,GP C3,,0.896,0.367,2025,2026,142,22.038525,86.79535,Water Tanker,Fortnightly,Quarterly,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes,Moderate,125,3,72,26,12,15
+05/06/2026 14:21:38,DEMO-F0339,Block A,Village A5,GP A5,Male,0.646,0.417,2025,2026,178,21.967856,86.637597,"Pond , Water Tanker",Weekly,Quarterly,Yes,Yes,No,No,No,No,No,No,Yes,Yes,Moderate,162,6,85,35,20,22
+22/06/2026 16:25:49,DEMO-F0340,Block C,Village C3,GP C3,Male,0.539,0.507,2025,2026,189,22.154579,86.753563,Canal,Rarely,Quarterly,Yes,No,Yes,Yes,No,No,No,No,No,Yes,Good,182,0,112,35,13,22
+19/04/2026 14:11:34,DEMO-F0341,Block A,Village A4,GP A4,Male,0.365,0.204,2025,2026,80,21.974341,86.553214,Stream,Fortnightly,Quarterly,No,No,Yes,No,Yes,No,Yes,No,No,Yes,Poor,64,0,26,17,6,15
+02/04/2026 15:47:10,DEMO-F0342,Block C,Village C1,GP C1,Female,0.479,0.4,2025,2026,171,22.106956,86.776876,Water Tanker,Monthly,Quarterly,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Moderate,146,0,85,35,15,11
+12/08/2026 11:26:17,DEMO-F0343,Block C,Village C1,GP C1,Male,0.506,0.366,2025,2026,157,22.095206,86.713253,"Pond , Water Tanker",Weekly,Quarterly,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes,Moderate,151,0,80,29,26,16
+09/06/2026 10:52:49,DEMO-F0344,Block B,Village B3,GP B3,Male,3.098,1.411,2025,2026,556,22.078257,86.563155,Pond,Fortnightly,Monthly,No,No,No,No,Yes,No,Yes,No,No,Yes,Moderate,480,0,284,79,59,58
+22/06/2026 10:39:33,DEMO-F0345,Block C,Village C2,GP C2,Female,1.765,1.46,2025,2026,600,22.0964,86.689292,Water Tanker,Monthly,Quarterly,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Good,568,0,295,121,45,107
+24/05/2026 09:09:49,DEMO-F0346,Block C,Village C7,GP C7,Male,1.416,0.618,2025,2026,245,22.162985,86.738852,Water Tanker,Weekly,Monthly,No,Yes,Yes,Yes,No,No,No,No,Yes,Not yet,Good,216,0,121,52,26,17
+18/05/2026 10:46:23,DEMO-F0347,Block C,Village C6,GP C6,Male,1.237,0.495,2025,2026,206,22.094049,86.7476,Canal,Weekly,Rarely,Yes,No,Yes,No,Yes,No,No,Yes,No,Yes,Poor,177,10,90,30,29,28
+23/09/2026 10:28:20,DEMO-F0348,Block A,Village A5,GP A5,,1.574,0.799,2025,2026,296,21.90551,86.612298,"Pond , Water Tanker",Weekly,Rarely,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes,Moderate,294,0,183,50,24,37
+22/08/2026 15:34:01,DEMO-F0349,Block B,Village B4,GP B4,,0.722,0.338,2025,2026,128,22.095388,86.540227,Canal,Weekly,Monthly,Yes,Yes,Yes,Yes,No,No,No,Yes,No,Not yet,Good,121,0,65,31,12,13
+29/07/2026 10:07:47,DEMO-F0350,Block A,Village A4,GP A4,Male,0.538,0.251,2025,2026,102,21.960043,86.60668,Lift Irrigation from River,Fortnightly,Monthly,Yes,No,Yes,Yes,No,No,No,No,No,Yes,Good,95,0,56,20,10,9
+01/06/2026 09:39:34,DEMO-F0351,Block B,Village B1,GP B1,Male,0.782,0.302,2025,2026,116,22.101324,86.487547,Water Tanker,Weekly,Monthly,Yes,No,No,No,No,No,Yes,Yes,Yes,No,Poor,94,9,50,30,9,5
+04/08/2026 15:19:50,DEMO-F0352,Block A,Village A3,GP A3,Male,0.615,0.398,2025,2026,163,21.974265,86.700274,Water Tanker,Weekly,Quarterly,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Not yet,Moderate,148,0,78,36,19,15
+23/05/2026 13:22:42,DEMO-F0353,Block B,Village B3,GP B3,,0.311,0.247,2025,2026,96,22.146142,86.572448,Water Tanker,Fortnightly,Rarely,Yes,No,No,No,Yes,No,Yes,Yes,No,Not yet,Moderate,67,8,39,12,9,7
+26/06/2026 10:09:20,DEMO-F0354,Block B,Village B5,GP B5,,1.492,0.815,2025,2026,346,22.164449,86.481957,Pond,Weekly,Quarterly,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Good,270,3,138,68,30,34
+16/04/2026 15:03:32,DEMO-F0355,Block B,Village B2,GP B2,Male,2.518,1.359,2025,2026,571,22.191178,86.548422,Water Tanker,Weekly,Monthly,Yes,No,Yes,Yes,No,No,No,Yes,No,Not yet,Poor,481,0,240,139,22,80
+01/08/2026 10:09:39,DEMO-F0356,Block B,Village B3,GP B3,,0.217,0.169,2025,2026,68,22.169793,86.482866,Stream,Fortnightly,Monthly,No,Yes,Yes,Yes,No,Yes,No,No,No,Not yet,Poor,64,0,46,12,2,4
+31/03/2026 15:51:20,DEMO-F0357,Block C,Village C3,GP C3,Male,1.428,0.721,2025,2026,301,22.053288,86.670766,Lift Irrigation from River,Weekly,Monthly,Yes,Yes,No,No,No,No,No,Yes,No,Yes,Moderate,275,0,152,70,17,36
+04/08/2026 08:19:21,DEMO-F0358,Block C,Village C1,GP C1,Male,0.591,0.578,2025,2026,223,22.054823,86.78169,Canal,Weekly,Rarely,No,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Good,209,0,118,50,25,16
+12/07/2026 13:54:04,DEMO-F0359,Block B,Village B1,GP B1,,2.38,0.958,2025,2026,383,22.116211,86.434795,Water Tanker,Weekly,Quarterly,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,Moderate,312,0,167,75,19,51
+01/04/2026 13:58:06,DEMO-F0360,Block B,Village B2,GP B2,Male,0.992,0.697,2025,2026,265,22.097441,86.566343,Water Tanker,Weekly,Quarterly,No,Yes,No,No,No,No,No,No,Yes,Not yet,Moderate,241,2,149,38,37,25
+24/06/2026 11:43:42,DEMO-F0361,Block C,Village C1,GP C1,Male,0.202,0.19,2025,2026,80,22.043084,86.717364,Pond,Fortnightly,Quarterly,No,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,Moderate,78,0,43,15,11,9
+01/05/2026 14:53:23,DEMO-F0362,Block A,Village A1,GP A1,Male,0.265,0.226,2025,2026,95,21.927915,86.609423,Water Tanker,Weekly,Rarely,Yes,No,Yes,Yes,No,No,No,No,Yes,Yes,Poor,88,3,45,25,11,7
+18/06/2026 11:47:50,DEMO-F0363,Block A,Village A3,GP A3,Female,1.002,0.724,2025,2026,308,21.926274,86.640488,,Weekly,Quarterly,No,No,Yes,No,No,No,No,Yes,No,No,Moderate,276,0,149,60,35,32
+22/03/2026 14:32:05,DEMO-F0364,Block A,Village A2,GP A2,,2.559,1.779,2025,2026,755,21.916408,86.64906,Pond,Rarely,Rarely,Yes,No,Yes,Yes,No,No,No,No,Yes,Not yet,Good,649,1,341,138,95,75
+04/08/2026 10:14:07,DEMO-F0365,Block C,Village C4,GP C4,,0.101,0.096,2025,2026,41,22.084211,86.688683,Pond,Monthly,Rarely,No,No,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Moderate,36,0,18,13,3,2
+24/06/2026 13:41:09,DEMO-F0366,Block B,Village B1,GP B1,Male,1.392,0.962,2025,2026,368,22.178923,86.555886,Lift Irrigation from River,Weekly,Quarterly,Yes,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Moderate,327,0,176,74,36,41
+27/05/2026 15:33:45,DEMO-F0367,Block C,Village C3,GP C3,Male,2.691,6.418,2025,2026,879,22.109962,86.735669,Water Tanker,Weekly,Rarely,Yes,No,No,No,No,No,No,Yes,Yes,No,Good,731,0,392,153,93,93
+02/09/2026 17:39:38,DEMO-F0368,Block C,Village C4,GP C4,,0.986,0.614,2025,2026,248,22.22359,86.667197,Water Tanker,Fortnightly,Monthly,Yes,No,Yes,Yes,No,Yes,No,Yes,Yes,Not yet,Good,239,3,136,65,27,11
+20/07/2026 11:36:10,DEMO-F0369,Block A,Village A6,GP A6,Male,1.868,1.156,2025,2026,457,21.958525,86.611506,Pond,Monthly,Quarterly,No,No,Yes,Yes,No,No,No,Yes,No,No,Moderate,424,0,244,89,44,47
+13/07/2026 12:43:38,DEMO-F0370,Block C,Village C5,GP C5,,0.577,0.374,2025,2026,151,22.085497,86.799064,Water Tanker,Monthly,Monthly,Yes,No,No,No,No,No,No,Yes,No,Not yet,Good,133,0,83,20,18,12
+16/04/2026 12:45:48,DEMO-F0371,Block C,Village C7,GP C7,Female,0.965,0.633,2025,2026,247,22.100207,86.81383,Water Tanker,Weekly,Quarterly,No,No,Yes,No,No,No,No,Yes,Yes,Yes,Moderate,261,0,155,73,8,25
+23/06/2026 16:36:04,DEMO-F0372,Block A,Village A3,GP A3,Male,0.188,0.164,2025,2026,63,21.962825,86.655867,Water Tanker,Weekly,Monthly,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,Good,52,0,22,14,10,6
+31/07/2026 17:37:32,DEMO-F0373,Block A,Village A3,GP A3,,0.088,0.085,2025,2026,33,21.971763,86.560483,Lift Irrigation from River,Fortnightly,Monthly,Yes,No,Yes,No,No,No,No,Yes,No,Yes,Good,33,0,16,9,6,2
+11/09/2026 14:27:36,DEMO-F0374,Block A,Village A3,GP A3,Male,2.178,1.646,2025,2026,614,22.053836,86.64453,Pond,Monthly,Monthly,Yes,Yes,Yes,Yes,No,No,Yes,No,No,Yes,Good,591,0,311,163,53,72
+12/07/2026 16:13:17,DEMO-F0375,Block A,Village A6,GP A6,Male,0.641,0.29,2025,2026,116,21.907734,86.662543,"Pond , Water Tanker",Monthly,Quarterly,No,No,Yes,No,No,No,Yes,Yes,Yes,No,Moderate,112,0,75,13,7,17
+21/04/2026 08:50:29,DEMO-F0376,Block A,Village A6,GP A6,Female,1.21,0.468,2025,2026,199,21.992952,86.656285,Pond,Weekly,Quarterly,No,Yes,No,No,No,No,No,Yes,Yes,Not yet,Moderate,165,0,76,61,19,9
+26/07/2026 15:35:33,DEMO-F0377,Block C,Village C7,GP C7,Male,0.502,0.202,2025,2026,82,22.110388,86.769248,Water Tanker,Fortnightly,Quarterly,Yes,Yes,No,No,Yes,No,No,Yes,No,Yes,Moderate,66,0,44,10,6,6
+03/04/2026 16:06:03,DEMO-F0378,Block B,Village B4,GP B4,Female,0.358,0.198,2025,2026,79,22.041445,86.538163,Pond,Weekly,Quarterly,No,No,Yes,Yes,No,No,No,Yes,Yes,Not yet,Moderate,91,0,50,22,6,13
+18/05/2026 15:08:56,DEMO-F0379,Block A,Village A4,GP A4,Female,1.116,0.603,2025,2026,714,21.988535,86.616379,Water Tanker,Fortnightly,Rarely,Yes,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Good,226,0,111,70,20,25
+10/09/2026 13:50:37,DEMO-F0380,Block C,Village C4,GP C4,,0.549,0.365,2025,2026,435,22.163381,86.699582,Pond,Monthly,Rarely,Yes,No,No,No,No,No,No,No,No,Not yet,Moderate,131,2,65,30,20,16
+19/08/2026 16:59:44,DEMO-F0381,Block B,Village B5,GP B5,,2.216,0.99,2025,2026,378,22.077141,86.425103,Stream,Fortnightly,Monthly,No,No,Yes,Yes,No,No,No,No,Yes,Yes,Poor,353,7,170,90,40,53
+07/09/2026 14:32:06,DEMO-F0382,Block C,Village C2,GP C2,Male,2.355,1.059,2025,2026,445,22.099553,86.746982,Water Tanker,Weekly,Quarterly,Yes,No,No,No,No,No,No,Yes,No,No,Moderate,370,4,185,67,59,59
+25/05/2026 16:27:50,DEMO-F0383,Block C,Village C3,GP C3,Male,2.212,0.941,2025,2026,358,22.013732,86.739303,Lift Irrigation from River,Fortnightly,Quarterly,Yes,No,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Good,328,0,183,58,44,43
+27/07/2026 09:48:08,DEMO-F0384,Block B,Village B5,GP B5,,2.124,0.873,2025,2026,361,22.05706,86.547879,,Fortnightly,Quarterly,No,No,Yes,Yes,No,No,No,Yes,No,Not yet,Moderate,346,0,191,75,38,42
+31/07/2026 14:39:13,DEMO-F0385,Block A,Village A3,GP A3,MALE,4.941,2.915,2025,2026,1215,22.002401,86.553123,Pond,Monthly,Quarterly,Yes,No,No,No,No,No,No,No,No,Not yet,Good,1063,0,587,233,155,88
+05/05/2026 12:22:29,DEMO-F0386,Block C,Village C2,GP C2,male,0.601,0.27,2025,2026,109,22.076679,86.762251,Water Tanker,Weekly,Quarterly,No,No,Yes,Yes,No,No,No,Yes,No,Not yet,Good,106,0,69,24,6,7
+15/09/2026 16:40:59,DEMO-F0387,Block C,Village C4,GP C4,Male,1.537,0.671,2025,2026,284,22.04456,86.832727,More,Monthly,Monthly,No,No,Yes,Yes,No,No,No,Yes,No,Not yet,Good,272,0,127,53,47,45
+20/09/2026 16:48:20,DEMO-F0388,Block C,Village C3,GP C3,male,2.917,1.953,2025,2026,755,22.111473,86.733923,Water Tanker,Weekly,Quarterly,No,No,No,No,No,No,No,Yes,No,Yes,Good,673,0,348,143,95,87
+09/04/2026 16:26:23,DEMO-F0389,Block A,Village A6,GP A6,Male,5.468,2.199,2025,2026,933,21.923879,86.616917,"Pond , Water Tanker",Weekly,Quarterly,No,No,Yes,Yes,No,No,Yes,Yes,Yes,No,Good,893,0,446,223,119,105
+12/08/2026 10:09:15,DEMO-F0390,Block C,Village C7,GP C7,Female,0.226,0.196,2025,2026,81,22.076459,86.74545,Lift Irrigation from River,Weekly,Quarterly,No,No,Yes,Yes,Yes,No,No,No,No,Yes,Moderate,71,0,42,12,7,10
+13/06/2026 12:55:22,DEMO-F0391,Block B,Village B2,GP B2,Male,1.378,0.532,2025,2026,669,22.156966,86.621617,"Pond , Water Tanker",Weekly,Rarely,Yes,No,Yes,Yes,No,No,No,Yes,No,Not yet,Good,212,0,131,33,26,22
+26/07/2026 08:00:04,DEMO-F0392,Block A,Village A4,GP A4,,5.339,2.392,2025,2026,982,21.891913,86.568818,Pond,Weekly,Monthly,No,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Moderate,968,11,511,231,127,99
+03/07/2026 17:47:46,DEMO-F0393,Block B,Village B5,GP B5,,1.279,1.113,2025,2026,470,22.074732,86.53016,Canal,Fortnightly,Monthly,No,No,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Poor,439,8,253,100,30,56
+01/05/2026 10:34:30,DEMO-F0394,Block C,Village C6,GP C6,,1.722,0.84,2025,2026,363,22.107704,86.690017,Water Tanker,Weekly,Monthly,No,No,Yes,Yes,No,No,No,No,Yes,Not yet,Moderate,332,0,172,66,44,50
+07/04/2026 14:14:39,DEMO-F0395,Block A,Village A2,GP A2,Male,0.611,0.579,2025,2026,229,21.99847,86.59265,Lift Irrigation from River,Weekly,Monthly,Yes,No,Yes,Yes,No,No,No,Yes,No,Yes,Moderate,222,0,137,51,16,18
+25/06/2026 12:52:31,DEMO-F0396,Block B,Village B3,GP B3,male,1.114,0.499,2025,2026,210,22.181908,86.51752,"Pond , Water Tanker",Weekly,Monthly,No,No,No,No,No,No,No,Yes,No,Not yet,Moderate,184,10,111,35,18,20
+26/08/2026 17:02:46,DEMO-F0397,Block C,Village C5,GP C5,,2.081,0.913,2025,2026,379,22.066747,86.797366,Lift Irrigation from River,Weekly,Quarterly,No,No,Yes,No,No,No,No,No,Yes,Yes,Good,377,0,180,105,42,50
+23/08/2026 16:12:46,DEMO-F0398,Block A,Village A4,GP A4,,1.104,0.562,2025,2026,223,21.996869,86.71005,Stream,Monthly,Quarterly,Yes,No,Yes,Yes,No,No,No,Yes,Yes,Not yet,Good,216,4,124,52,18,22
+11/05/2026 15:46:09,DEMO-F0399,Block B,Village B1,GP B1,Male,1.608,0.678,2025,2026,290,22.080793,86.542407,Canal,Rarely,Quarterly,No,Yes,Yes,Yes,No,No,Yes,Yes,No,Not yet,Moderate,243,2,130,44,30,39
+30/08/2026 14:25:58,DEMO-F0400,Block B,Village B2,GP B2,,0.874,0.756,2025,2026,891,22.21131,86.50117,Pond,Weekly,Quarterly,Yes,No,No,No,No,No,No,Yes,Yes,Not yet,Moderate,238,2,140,54,29,15
+26/05/2026 09:11:37,DEMO-F0401,Block A,Village A6,GP A6,Male,0.552,0.383,2025,2026,155,21.893311,86.744637,Lift Irrigation from River,Monthly,Monthly,Yes,No,Yes,Yes,No,No,No,Yes,No,Yes,Moderate,151,0,81,32,20,18
+04/07/2026 17:11:26,DEMO-F0402,Block C,Village C2,GP C2,,1.892,1.138,2025,2026,426,22.166424,86.708622,Water Tanker,Monthly,Quarterly,No,No,No,No,No,Yes,No,No,Yes,Yes,Moderate,345,0,202,67,29,47
+20/05/2026 08:37:34,DEMO-F0403,Block C,Village C3,GP C3,Male,4.806,4.5,2025,2026,1721,22.067176,86.701443,"Pond , Water Tanker",Rarely,Monthly,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Moderate,1475,0,853,326,110,186
+27/06/2026 12:33:20,DEMO-F0404,Block A,Village A2,GP A2,Male,0.244,0.142,2025,2026,60,22.050662,86.531253,Stream,Weekly,Rarely,Yes,No,Yes,Yes,No,No,Yes,No,Yes,Yes,Moderate,53,0,33,17,0,3
+28/06/2026 11:47:39,DEMO-F0405,Block C,Village C2,GP C2,Male,1.343,0.943,2025,2026,371,22.129566,86.799805,Pond,Weekly,Monthly,Yes,No,No,No,No,No,No,No,No,Not yet,Moderate,349,0,171,84,35,59
+30/07/2026 11:54:29,DEMO-F0406,Block C,Village C2,GP C2,Male,0.58,0.356,2025,2026,140,22.049199,86.778412,More,Fortnightly,Quarterly,Yes,Yes,No,No,No,No,No,No,No,Yes,Poor,140,0,71,23,17,29
+17/06/2026 17:46:20,DEMO-F0407,Block A,Village A3,GP A3,Male,1.991,1.185,2025,2026,455,21.923888,86.74089,Pond,Monthly,Rarely,No,No,Yes,Yes,No,No,Yes,No,Yes,Yes,Moderate,383,0,196,72,65,50
+28/06/2026 10:18:51,DEMO-F0408,Block C,Village C7,GP C7,Male,1.769,0.735,2025,2026,294,22.139059,86.660524,Water Tanker,Monthly,Quarterly,No,No,Yes,Yes,No,No,No,No,Yes,Yes,Poor,294,0,173,72,24,25
+21/07/2026 13:47:58,DEMO-F0409,Block A,Village A1,GP A1,Male,2.004,1.399,2025,2026,587,22.002632,86.692909,Pond,Fortnightly,Quarterly,No,No,Yes,Yes,Yes,No,No,Yes,Yes,Not yet,Poor,523,0,274,138,60,51
+07/06/2026 10:10:50,DEMO-F0410,Block C,Village C2,GP C2,,4.933,2.03,2025,2026,863,22.096464,86.733507,Canal,Weekly,Quarterly,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Moderate,858,5,487,161,77,133
+27/06/2026 17:06:55,DEMO-F0411,Block C,Village C1,GP C1,Male,1.409,0.838,2025,2026,312,22.102233,86.770305,Water Tanker,Monthly,Monthly,No,Yes,No,No,No,Yes,Yes,Yes,No,Yes,Good,257,0,142,49,36,30
+05/04/2026 15:21:39,DEMO-F0412,Block C,Village C4,GP C4,Female,2.976,1.952,2025,2026,790,22.137918,86.647611,Stream,Monthly,Quarterly,No,No,No,No,No,No,Yes,Yes,Yes,No,Good,743,0,409,157,93,84
+01/09/2026 12:08:54,DEMO-F0413,Block A,Village A2,GP A2,,0.153,0.45,2025,2026,34,21.95659,86.693404,Pond,Fortnightly,Rarely,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Moderate,31,3,18,9,2,2
+12/04/2026 08:48:12,DEMO-F0414,Block C,Village C6,GP C6,Male,4.92,2.949,2025,2026,1201,22.035325,86.769326,Water Tanker,Fortnightly,Rarely,Yes,No,Yes,No,No,No,No,Yes,Yes,Not yet,Good,1066,0,536,247,106,177
+01/09/2026 09:31:36,DEMO-F0415,Block A,Village A4,GP A4,Male,1.395,0.988,2025,2026,392,21.909351,86.618054,Pond,Fortnightly,Quarterly,Yes,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Moderate,346,0,172,97,27,50
+11/08/2026 10:25:37,DEMO-F0416,Block A,Village A5,GP A5,,3.354,1.859,2025,2026,732,21.961756,86.652256,More,Fortnightly,Quarterly,No,Yes,Yes,No,No,No,No,Yes,Yes,Not yet,Moderate,690,0,372,171,67,80
+16/09/2026 12:03:46,DEMO-F0417,Block A,Village A4,GP A4,,0.292,0.235,2025,2026,94,22.010774,86.581725,Pond,Fortnightly,Quarterly,No,No,No,No,Yes,No,Yes,Yes,Yes,Not yet,Poor,83,4,35,18,10,20
+24/03/2026 16:51:32,DEMO-F0418,Block C,Village C4,GP C4,Male,0.522,0.334,2025,2026,135,22.180799,86.701028,Pond,Monthly,Quarterly,Yes,No,Yes,Yes,No,No,Yes,Yes,Yes,Not yet,Moderate,130,5,76,36,5,20
+30/04/2026 09:11:44,DEMO-F0419,Block A,Village A6,GP A6,,1.532,0.804,2025,2026,322,21.988976,86.596828,Pond,,,,,,,,,,,,,,289,0,150,48,51,40
+29/03/2026 13:46:09,DEMO-F0420,Block C,Village C4,GP C4,Male,1.153,0.694,2025,2026,276,22.114365,86.637364,Stream,Fortnightly,Monthly,Yes,No,Yes,Yes,No,No,No,No,Yes,Not yet,Good,275,0,143,67,29,36
+07/06/2026 11:28:23,DEMO-F0421,Block C,Village C7,GP C7,Male,2.107,0.909,2025,2026,382,22.137441,86.773088,Pond,Weekly,Monthly,Yes,No,No,No,No,No,Yes,Yes,No,No,Good,342,0,184,74,30,54
+07/09/2026 08:27:57,DEMO-F0422,Block A,Village A6,GP A6,,2.638,1.87,2025,2026,777,21.916662,86.67958,Lift Irrigation from River,Fortnightly,Quarterly,No,Yes,Yes,No,No,No,No,Yes,Yes,No,Moderate,777,0,439,191,36,111
+12/08/2026 14:11:35,DEMO-F0423,Block A,Village A4,GP A4,Male,0.367,0.144,2025,2026,56,21.942338,86.584933,Canal,Weekly,Monthly,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Not yet,Good,54,0,22,17,6,9
+31/07/2026 15:02:33,DEMO-F0424,Block A,Village A5,GP A5,,3.819,1.693,2025,2026,710,21.908793,86.63741,Canal,Weekly,Monthly,Yes,No,Yes,Yes,No,No,No,No,Yes,Not yet,Moderate,690,0,412,164,30,84
+28/08/2026 17:35:41,DEMO-F0425,Block B,Village B2,GP B2,Male,1.809,0.71,2025,2026,300,22.057563,86.506723,Pond,Weekly,Monthly,No,No,Yes,Yes,Yes,No,Yes,No,No,No,Poor,256,0,154,38,38,26
+20/03/2026 13:04:00,DEMO-F0426,Block C,Village C6,GP C6,,1.374,0.587,2025,2026,222,22.116677,86.746414,Pond,Fortnightly,Rarely,No,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,Moderate,207,10,98,62,13,34
+16/08/2026 11:15:14,DEMO-F0427,Block A,Village A5,GP A5,Male,0.23,0.187,2025,2026,76,21.959276,86.588621,Water Tanker,Weekly,Monthly,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,Moderate,62,0,32,15,5,10
+18/05/2026 16:32:42,DEMO-F0428,Block C,Village C7,GP C7,Male,2.041,1.108,2025,2026,428,22.134383,86.685829,Pond,,,,,,,,,,,,,,412,0,224,86,43,59
+29/07/2026 10:28:24,DEMO-F0429,Block A,Village A2,GP A2,Male,0.102,0.08,2025,2026,33,21.977306,86.672604,Lift Irrigation from River,Monthly,Quarterly,No,Yes,Yes,Yes,No,No,No,No,No,Yes,Moderate,30,1,17,4,5,4
+12/08/2026 14:49:27,DEMO-F0430,Block C,Village C6,GP C6,Male,2.916,1.263,2025,2026,484,22.112132,86.726806,Water Tanker,Weekly,Monthly,No,No,No,No,No,No,Yes,Yes,Yes,No,Good,457,6,254,116,18,69
+28/07/2026 17:26:02,DEMO-F0431,Block C,Village C4,GP C4,,0.356,0.184,2025,2026,76,22.127831,86.831105,Water Tanker,Fortnightly,Rarely,No,No,Yes,Yes,No,No,No,Yes,No,Yes,Moderate,72,4,36,21,7,8
+07/06/2026 08:02:40,DEMO-F0432,Block C,Village C2,GP C2,Male,1.051,0.739,2025,2026,284,22.097866,86.732315,Pond,Monthly,Rarely,No,No,Yes,Yes,No,No,No,Yes,No,Not yet,Good,274,0,148,62,37,27
+14/07/2026 17:15:06,DEMO-F0433,Block C,Village C2,GP C2,Male,1.574,0.633,2025,2026,254,22.120645,86.683696,Water Tanker,Fortnightly,Quarterly,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Not yet,Moderate,234,0,117,55,24,38
+17/06/2026 10:03:26,DEMO-F0434,Block C,Village C4,GP C4,Male,2.391,2.019,2025,2026,866,22.063693,86.791347,Pond,Weekly,Quarterly,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,Not yet,Good,710,0,401,141,81,87
+17/07/2026 12:48:56,DEMO-F0435,Block A,Village A2,GP A2,Male,1.141,0.6,2025,2026,705,21.968485,86.65154,Lift Irrigation from River,Weekly,Quarterly,No,No,No,No,No,No,Yes,No,Yes,Not yet,Moderate,210,9,107,57,11,35
+15/06/2026 10:34:46,DEMO-F0436,Block A,Village A1,GP A1,FEMALE,0.812,0.377,2025,2026,160,21.983421,86.656344,Pond,Fortnightly,Monthly,No,No,No,No,No,No,Yes,No,Yes,Yes,Moderate,158,0,80,39,20,19
+02/06/2026 09:26:42,DEMO-F0437,Block A,Village A3,GP A3,Male,0.489,0.447,2025,2026,193,21.916516,86.67953,"Pond , Water Tanker",Fortnightly,Monthly,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes,Good,182,0,96,59,14,13
+27/04/2026 15:01:20,DEMO-F0438,Block B,Village B4,GP B4,,4.336,2.216,2025,2026,940,22.122592,86.48736,Lift Irrigation from River,Weekly,Monthly,Yes,No,Yes,Yes,No,No,Yes,Yes,Yes,Not yet,Moderate,776,0,453,132,134,57
+01/06/2026 12:49:18,DEMO-F0439,Block C,Village C3,GP C3,Male,2.633,1.142,2025,2026,432,22.06882,86.723637,Pond,Fortnightly,Monthly,No,No,Yes,Yes,Yes,No,No,No,No,Not yet,Good,411,6,218,81,44,68
+04/08/2026 13:05:35,DEMO-F0440,Block B,Village B5,GP B5,Female,0.552,0.498,2025,2026,209,22.093675,86.511428,Pond,Fortnightly,Quarterly,Yes,Yes,Yes,Yes,No,No,No,Yes,No,Not yet,Good,203,0,97,54,33,19
+01/09/2026 12:50:09,DEMO-F0441,Block C,Village C6,GP C6,Male,1.037,0.57,2025,2026,211,22.043754,86.665463,Water Tanker,Weekly,Monthly,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,Not yet,Good,198,0,109,34,24,31
+08/04/2026 15:28:28,DEMO-F0442,Block A,Village A4,GP A4,Male,0.243,0.172,2025,2026,68,22.013289,86.60682,Pond,Fortnightly,Monthly,No,Yes,Yes,Yes,No,No,No,No,Yes,Not yet,Good,68,0,36,11,15,6
+23/04/2026 17:39:39,DEMO-F0443,Block C,Village C7,GP C7,,2.061,1.0,2025,2026,424,22.153284,86.796819,Pond,Weekly,Quarterly,No,No,Yes,Yes,No,No,No,Yes,No,Not yet,Poor,424,0,255,75,33,61
+24/06/2026 13:07:43,DEMO-F0444,Block A,Village A3,GP A3,,0.173,0.145,2025,2026,60,21.976872,86.631867,Stream,Weekly,Quarterly,No,Yes,Yes,Yes,No,Yes,No,No,No,Not yet,Poor,57,0,27,13,6,11
+31/07/2026 09:33:21,DEMO-F0445,Block A,Village A1,GP A1,,3.464,1.386,2025,2026,557,22.04861,86.552697,Lift Irrigation from River,Monthly,Monthly,No,No,Yes,Yes,Yes,No,No,No,Yes,Not yet,Moderate,461,0,250,88,66,57
+21/04/2026 11:16:25,DEMO-F0446,Block C,Village C1,GP C1,Male,1.923,0.791,2025,2026,311,22.090538,86.652208,Pond,Weekly,Monthly,Yes,No,Yes,Yes,No,No,No,No,Yes,Yes,Moderate,302,0,155,74,41,32
+20/05/2026 12:57:37,DEMO-F0447,Block C,Village C7,GP C7,Male,5.839,4.5,2025,2026,1890,22.251588,86.813239,Water Tanker,Fortnightly,Monthly,No,No,No,No,No,No,Yes,No,No,Yes,Moderate,1710,0,980,391,147,192
+28/03/2026 09:02:11,DEMO-F0448,Block B,Village B5,GP B5,Female,0.398,0.262,2025,2026,108,22.108624,86.515484,Pond,Fortnightly,Monthly,Yes,No,Yes,No,Yes,No,No,Yes,No,Yes,Poor,91,0,45,24,13,9
+29/03/2026 10:17:27,DEMO-F0449,Block A,Village A5,GP A5,Male,1.246,0.642,2025,2026,256,21.96276,86.587629,More,Weekly,Rarely,Yes,No,No,No,No,No,Yes,Yes,Yes,No,Moderate,223,11,93,52,38,40
+16/04/2026 10:01:34,DEMO-F0450,Block B,Village B1,GP B1,,7.639,3.555,2025,2026,1511,22.100111,86.5063,Pond,Monthly,Rarely,No,No,Yes,Yes,No,No,No,No,Yes,Not yet,Good,1256,0,702,251,195,108
+05/08/2026 17:43:46,DEMO-F0451,Block A,Village A2,GP A2,Female,3.517,2.059,2025,2026,788,21.968616,86.546135,Canal,Weekly,Quarterly,No,No,No,No,No,No,No,Yes,No,Yes,Moderate,693,0,373,152,92,76
+01/09/2026 12:00:28,DEMO-F0452,Block C,Village C1,GP C1,Female,0.471,0.377,2025,2026,143,22.141781,86.801155,Canal,Weekly,Quarterly,No,Yes,No,No,No,No,No,No,Yes,Yes,Poor,143,0,69,35,15,24
+22/06/2026 16:47:25,DEMO-F0453,Block C,Village C1,GP C1,,1.006,0.862,2025,2026,353,22.094304,86.710347,Pond,Monthly,Quarterly,Yes,No,Yes,Yes,No,No,No,Yes,Yes,Not yet,Good,353,0,226,59,13,55
+22/04/2026 13:30:52,DEMO-F0454,Block A,Village A2,GP A2,,1.835,0.706,2025,2026,304,22.038836,86.68837,Pond,Monthly,Quarterly,No,Yes,No,No,No,Yes,No,Yes,No,Yes,Moderate,277,5,178,54,36,9
+11/09/2026 13:03:39,DEMO-F0455,Block A,Village A4,GP A4,Male,1.57,0.908,2025,2026,349,21.961957,86.622583,Water Tanker,,,,,,,,,,,,,,325,0,197,70,25,33
+11/05/2026 17:23:10,DEMO-F0456,Block A,Village A1,GP A1,Male,0.901,0.376,2025,2026,144,21.963524,86.691477,Stream,Weekly,Monthly,No,No,Yes,Yes,No,No,No,No,Yes,Yes,Good,130,0,75,33,16,10
+18/04/2026 14:55:10,DEMO-F0457,Block C,Village C7,GP C7,Female,1.152,0.65,2025,2026,245,22.05455,86.742835,Water Tanker,Weekly,Quarterly,No,No,No,No,Yes,No,No,No,No,Yes,Moderate,207,9,105,39,42,21
+15/04/2026 10:23:49,DEMO-F0458,Block B,Village B3,GP B3,Male,0.413,0.167,2025,2026,71,22.140925,86.562662,Lift Irrigation from River,Fortnightly,Quarterly,Yes,No,Yes,No,No,No,No,No,No,No,Good,70,0,40,12,9,9
+26/05/2026 10:48:59,DEMO-F0459,Block C,Village C2,GP C2,Male,0.908,0.796,2025,2026,304,22.093299,86.765955,Canal,Weekly,Monthly,No,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Poor,279,0,160,61,33,25
+28/05/2026 10:48:59,DEMO-F0459,Block C,Village C2,GP C2,Male,0.908,0.796,2025,2026,304,22.093299,86.765955,Canal,Weekly,Monthly,No,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Poor,279,0,160,61,33,25
+06/08/2026 14:39:39,DEMO-F0460,Block B,Village B3,GP B3,Male,1.25,1.057,2025,2026,423,22.089588,86.551165,,Weekly,Monthly,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Moderate,384,0,200,92,54,38
+03/06/2026 08:01:20,DEMO-F0461,Block B,Village B4,GP B4,,1.428,0.574,2025,2026,248,22.081176,86.537397,Water Tanker,Monthly,Quarterly,No,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,Good,221,0,105,57,28,31
+12/06/2026 09:31:31,DEMO-F0462,Block A,Village A2,GP A2,,0.415,0.165,2025,2026,61,22.083588,86.608357,Water Tanker,Weekly,Monthly,No,No,Yes,No,No,No,No,Yes,No,Yes,Moderate,57,0,35,15,3,4
+23/05/2026 08:44:35,DEMO-F0463,Block C,Village C1,GP C1,Female,2.579,1.715,2025,2026,692,22.086826,86.825772,,Weekly,Quarterly,No,Yes,Yes,Yes,No,No,No,Yes,No,Yes,Moderate,692,0,404,127,71,90
+15/09/2026 15:08:15,DEMO-F0464,Block A,Village A1,GP A1,Male,1.534,0.978,2025,2026,392,21.877151,86.574653,Pond,Weekly,Quarterly,Yes,Yes,Yes,No,No,No,No,Yes,No,Not yet,Moderate,392,0,206,91,35,60
+27/07/2026 12:24:48,DEMO-F0465,Block B,Village B5,GP B5,Male,0.633,0.367,2025,2026,154,22.085089,86.520215,Stream,Fortnightly,Quarterly,Yes,No,Yes,No,No,No,No,Yes,No,Yes,Moderate,136,0,89,24,10,13
+24/07/2026 08:06:48,DEMO-F0466,Block C,Village C1,GP C1,Male,0.911,0.547,2025,2026,214,22.097422,86.730744,Pond,Fortnightly,Monthly,No,No,Yes,Yes,No,Yes,No,Yes,No,Yes,Moderate,213,0,126,49,25,13
+11/06/2026 15:24:59,DEMO-F0467,Block B,Village B4,GP B4,Male,0.239,0.183,2025,2026,72,22.147333,86.540122,Pond,Monthly,Monthly,No,No,Yes,Yes,No,No,No,No,No,Yes,Good,66,0,45,11,1,9
+28/06/2026 14:33:33,DEMO-F0468,Block C,Village C3,GP C3,Female,0.682,0.28,2025,2026,106,22.12774,86.708526,Stream,Weekly,Rarely,No,No,Yes,Yes,No,Yes,No,No,Yes,Not yet,Good,94,4,44,35,6,9
+04/09/2026 15:11:10,DEMO-F0469,Block A,Village A5,GP A5,Female,0.61,0.434,2025,2026,180,21.983831,86.635737,Water Tanker,Weekly,Quarterly,Yes,No,Yes,Yes,No,No,No,Yes,No,Not yet,Good,168,11,99,39,15,15
+22/07/2026 09:37:55,DEMO-F0470,Block B,Village B1,GP B1,Male,4.531,2.129,2025,2026,890,22.087757,86.511558,Pond,Fortnightly,Monthly,Yes,Yes,Yes,Yes,No,Yes,No,Yes,No,Not yet,Good,834,0,469,176,74,115
+21/08/2026 16:44:57,DEMO-F0471,Block B,Village B5,GP B5,Male,0.439,0.396,2025,2026,149,22.137022,86.440902,Pond,Fortnightly,Monthly,No,No,No,No,No,No,No,No,Yes,Not yet,Moderate,129,7,74,26,16,13
+27/03/2026 09:48:11,DEMO-F0472,Block B,Village B4,GP B4,Male,1.332,1.254,2025,2026,493,22.076197,86.520478,Water Tanker,Fortnightly,Rarely,No,No,No,No,No,No,No,No,Yes,Yes,Good,367,0,224,83,34,26
+30/08/2026 13:42:31,DEMO-F0473,Block A,Village A3,GP A3,,0.888,0.434,2025,2026,185,21.919018,86.564972,Stream,Rarely,Quarterly,Yes,No,Yes,Yes,No,No,Yes,No,No,Not yet,Moderate,161,0,90,39,15,17
+16/09/2026 13:35:20,DEMO-F0474,Block A,Village A2,GP A2,Female,1.359,0.881,2025,2026,324,21.904115,86.533281,Pond,Fortnightly,Rarely,No,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Moderate,292,7,157,69,37,29
+24/07/2026 10:11:14,DEMO-F0475,Block A,Village A6,GP A6,Male,1.27,0.62,2025,2026,240,21.890581,86.626844,Pond,Fortnightly,Quarterly,Yes,No,No,No,Yes,No,No,Yes,No,Not yet,Moderate,196,5,121,48,14,13
+17/09/2026 11:45:14,DEMO-F0476,Block A,Village A2,GP A2,,1.779,1.546,2025,2026,624,22.00321,86.644394,Water Tanker,Rarely,Quarterly,No,Yes,No,No,Yes,No,Yes,No,Yes,No,Moderate,482,0,262,90,64,66
+05/07/2026 08:31:19,DEMO-F0477,Block B,Village B3,GP B3,Male,1.096,0.435,2025,2026,169,22.154431,86.546335,"Pond , Water Tanker",Weekly,Quarterly,Yes,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Poor,158,0,91,26,29,12
+11/05/2026 12:42:46,DEMO-F0478,Block B,Village B2,GP B2,Male,0.376,0.171,2025,2026,66,22.168833,86.548359,Pond,Rarely,Monthly,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Not yet,Poor,59,2,32,14,6,7
+13/07/2026 14:46:16,DEMO-F0479,Block B,Village B2,GP B2,,0.488,0.203,2025,2026,81,22.121966,86.423371,"Pond , Water Tanker",Fortnightly,Quarterly,Yes,No,Yes,No,No,No,No,No,No,Not yet,Good,72,0,46,13,9,4
+17/07/2026 11:05:19,DEMO-F0480,Block B,Village B3,GP B3,Male,0.532,0.437,2025,2026,166,22.15884,86.451949,Stream,Fortnightly,Quarterly,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Not yet,Moderate,144,4,86,29,8,21
+16/04/2026 13:22:39,DEMO-F0481,Block B,Village B1,GP B1,Male,0.346,0.229,2025,2026,92,22.031936,86.618676,Pond,Rarely,Monthly,No,Yes,No,No,No,No,No,No,No,Yes,Good,80,9,48,11,13,8
+27/04/2026 17:32:04,DEMO-F0482,Block A,Village A1,GP A1,Female,1.62,1.019,2025,2026,421,21.993154,86.56764,Stream,Fortnightly,Rarely,No,No,Yes,Yes,No,No,No,No,Yes,Yes,Moderate,376,10,226,60,40,50
+14/05/2026 10:20:46,DEMO-F0483,Block B,Village B2,GP B2,Male,0.861,0.463,2025,2026,187,22.128856,86.550542,,Fortnightly,Quarterly,No,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Moderate,172,6,89,51,17,15
+02/07/2026 10:54:23,DEMO-F0484,Block A,Village A1,GP A1,Female,6.637,13.62,2025,2026,1683,21.981355,86.585653,Water Tanker,Weekly,Monthly,Yes,No,Yes,Yes,Yes,No,No,No,Yes,No,Good,1436,0,822,374,140,100
+17/04/2026 09:11:59,DEMO-F0485,Block A,Village A3,GP A3,Male,0.161,0.147,2025,2026,62,21.969001,86.623984,Water Tanker,Fortnightly,Quarterly,Yes,Yes,No,No,No,No,No,Yes,Yes,No,Good,57,0,31,10,7,9
+13/08/2026 13:25:13,DEMO-F0486,Block B,Village B5,GP B5,Male,1.345,0.846,2025,2026,321,22.070647,86.488337,Stream,Fortnightly,Rarely,No,No,Yes,Yes,No,No,No,No,No,Yes,Good,288,6,136,80,39,33
+09/04/2026 10:02:18,DEMO-F0487,Block B,Village B1,GP B1,Male,0.359,0.255,2025,2026,106,22.045098,86.548077,Canal,Weekly,Rarely,Yes,Yes,No,No,No,No,No,No,No,Not yet,Moderate,93,0,47,25,3,18
+14/09/2026 16:32:36,DEMO-F0488,Block A,Village A1,GP A1,Male,0.731,0.452,2025,2026,177,21.914397,86.626839,Canal,Monthly,Quarterly,No,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,Moderate,172,0,81,33,32,26
+26/07/2026 10:54:33,DEMO-F0489,Block B,Village B1,GP B1,FEMALE,1.052,0.8,2025,2026,334,22.148246,86.497586,"Pond , Water Tanker",Fortnightly,Rarely,No,No,Yes,No,Yes,No,Yes,Yes,Yes,Not yet,Good,262,0,147,71,14,30
+23/05/2026 14:38:30,DEMO-F0490,Block B,Village B3,GP B3,Male,0.123,0.087,2025,2026,33,22.154505,86.467491,Water Tanker,Fortnightly,Rarely,No,Yes,Yes,No,Yes,No,No,No,No,Not yet,Good,28,0,14,5,3,6
+29/05/2026 09:53:31,DEMO-F0491,Block C,Village C2,GP C2,,1.747,0.872,2025,2026,331,22.031603,86.743389,Stream,Weekly,Rarely,Yes,No,Yes,Yes,Yes,No,No,No,No,Not yet,Good,293,4,170,71,25,27
+29/07/2026 11:13:39,DEMO-F0492,Block B,Village B3,GP B3,Male,6.332,3.906,2025,2026,1562,22.070945,86.459364,Stream,Fortnightly,Rarely,No,Yes,No,No,No,No,No,No,Yes,Yes,Moderate,1221,0,633,304,83,201
+05/04/2026 09:42:43,DEMO-F0493,Block C,Village C1,GP C1,Male,0.728,0.469,2025,2026,174,22.063838,86.751374,Pond,Weekly,Quarterly,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes,Good,174,0,89,37,28,20
+03/08/2026 13:31:27,DEMO-F0494,Block A,Village A2,GP A2,Male,1.65,0.89,2025,2026,340,21.932135,86.751324,Pond,Weekly,Quarterly,Yes,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Good,319,0,159,85,40,35
+02/07/2026 08:16:39,DEMO-F0495,Block C,Village C3,GP C3,Male,3.963,1.773,2025,2026,735,22.031897,86.797509,Water Tanker,Fortnightly,Quarterly,No,Yes,Yes,Yes,No,No,No,No,Yes,Not yet,Poor,725,7,389,175,75,86
+01/05/2026 08:49:47,DEMO-F0496,Block B,Village B3,GP B3,Male,0.977,0.608,2025,2026,256,22.048897,86.555917,Stream,Weekly,Quarterly,No,No,Yes,Yes,No,No,No,Yes,No,No,Moderate,243,0,118,52,36,37
+06/09/2026 13:00:51,DEMO-F0497,Block B,Village B3,GP B3,Female,0.811,0.418,2025,2026,156,22.078908,86.51572,Pond,Weekly,Monthly,No,No,Yes,Yes,No,No,No,Yes,No,Yes,Moderate,136,0,69,39,7,21
+17/07/2026 13:27:24,DEMO-F0498,Block B,Village B4,GP B4,Male,0.232,0.091,2025,2026,39,22.124313,86.423062,Lift Irrigation from River,Fortnightly,Quarterly,Yes,Yes,No,No,No,No,Yes,No,No,Not yet,Moderate,35,0,17,10,3,5
+20/04/2026 11:17:49,DEMO-F0499,Block A,Village A3,GP A3,,2.303,1.255,2025,2026,526,21.89097,86.553886,Pond,Weekly,Rarely,No,No,Yes,Yes,No,No,No,No,Yes,Not yet,Moderate,500,7,254,127,55,64
+22/07/2026 12:18:50,DEMO-F0500,Block B,Village B5,GP B5,,1.562,0.636,2025,2026,269,22.11421,86.58414,Water Tanker,Rarely,Quarterly,No,Yes,Yes,Yes,No,No,Yes,No,Yes,Not yet,Moderate,249,0,155,49,27,18

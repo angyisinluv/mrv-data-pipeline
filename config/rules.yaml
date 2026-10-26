@@ -1,0 +1,66 @@
+# Each rule has an id, a type, a severity (fail or warning) and a message.
+# Rule types: compare, sum_equals, allowed_values, not_null, ratio_range, duplicate
+rules:
+  - id: planted_area_exceeds_parcel_area
+    type: compare
+    left: planted_area_ha
+    operator: "<="
+    right: parcel_area_ha
+    severity: fail
+    message: Planted area is larger than the land parcel area
+
+  - id: surviving_exceeds_planted
+    type: compare
+    left: trees_surviving
+    operator: "<="
+    right: trees_planted
+    severity: fail
+    message: Surviving trees are more than trees originally planted
+
+  - id: species_sum_mismatch
+    type: sum_equals
+    columns: [cashew_surviving, mango_surviving, amla_surviving, neem_surviving]
+    total: trees_surviving
+    severity: fail
+    message: Species counts do not add up to total surviving trees
+
+  - id: invalid_irrigation_category
+    type: allowed_values
+    column: irrigation_source
+    values: [Pond, Water Tanker, Lift Irrigation from River, Canal, Stream, "Pond , Water Tanker"]
+    severity: warning
+    message: Irrigation source is not a valid category
+
+  - id: missing_irrigation_source
+    type: not_null
+    columns: [irrigation_source]
+    severity: warning
+    message: Irrigation source is blank
+
+  - id: incomplete_survey_row
+    type: not_null
+    columns: [irrigation_frequency, weeding_frequency, fencing_complete, grazing_present, ground_cover]
+    severity: warning
+    message: Survey row has blank answers (survey may have stopped partway)
+
+  - id: implausible_tree_density
+    type: ratio_range
+    numerator: trees_planted
+    denominator: planted_area_ha
+    min: 300
+    max: 500
+    severity: warning
+    message: Trees per hectare is outside the expected 300-500 range
+
+  - id: inconsistent_gender_text
+    type: allowed_values
+    column: gender
+    values: [Male, Female]
+    severity: warning
+    message: Gender text is not in the standard format (Male or Female)
+
+  - id: duplicate_farmer_id
+    type: duplicate
+    column: farmer_id
+    severity: fail
+    message: Farmer ID appears more than once
