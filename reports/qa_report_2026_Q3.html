@@ -1,0 +1,881 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><title>QA report 2026 Q3</title><style>
+body{font-family:Segoe UI,Arial,sans-serif;max-width:960px;margin:2rem auto;padding:0 1rem;color:#222}
+h1{margin-bottom:0}
+h2{margin-top:2rem;border-bottom:1px solid #ddd;padding-bottom:.3rem}
+.sub{color:#666}
+.tiles{display:flex;gap:1rem;flex-wrap:wrap}
+.tile{flex:1;min-width:150px;background:#f4f6f8;border-radius:8px;padding:1rem}
+.tile .n{font-size:1.8rem;font-weight:600}
+.tile .l{color:#555;font-size:.9rem}
+table.t{border-collapse:collapse;width:100%;font-size:.9rem}
+.t th,.t td{border-bottom:1px solid #e3e3e3;padding:.4rem .6rem;text-align:left}
+.t th{background:#f4f6f8}
+.note{background:#fff8e1;border-left:4px solid #f0b400;padding:.6rem 1rem}
+</style></head><body><h1>Data quality and survival report</h1><p class='sub'>Monitoring round: 2026 Q3 &middot; generated 2026-10-26 &middot; synthetic demo data</p><div class='tiles'><div class="tile"><div class="n">500</div><div class="l">Plots in database</div></div><div class="tile"><div class="n">409</div><div class="l">Clean</div></div><div class="tile"><div class="n">45</div><div class="l">Warning</div></div><div class="tile"><div class="n">46</div><div class="l">Needs review</div></div><div class="tile"><div class="n">88.8%</div><div class="l">Survival rate</div></div></div><p class='note'>Survival rate = total surviving trees / total planted trees, based on 454 usable plots. Plots marked needs_review are excluded.</p><h2>Issues by rule</h2><table class="dataframe t">
+  <thead>
+    <tr style="text-align: right;">
+      <th>rule_id</th>
+      <th>severity</th>
+      <th>rows_flagged</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>implausible_tree_density</td>
+      <td>warning</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>species_sum_mismatch</td>
+      <td>fail</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>planted_area_exceeds_parcel_area</td>
+      <td>fail</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>invalid_irrigation_category</td>
+      <td>warning</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>incomplete_survey_row</td>
+      <td>warning</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>missing_irrigation_source</td>
+      <td>warning</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>surviving_exceeds_planted</td>
+      <td>fail</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table><h2>Plots needing review (send to field team)</h2><table class="dataframe t">
+  <thead>
+    <tr style="text-align: right;">
+      <th>farmer_id</th>
+      <th>block</th>
+      <th>village</th>
+      <th>trees_planted</th>
+      <th>trees_surviving</th>
+      <th>reasons</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>DEMO-F0005</td>
+      <td>Block A</td>
+      <td>Village A1</td>
+      <td>103</td>
+      <td>98</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0076</td>
+      <td>Block A</td>
+      <td>Village A1</td>
+      <td>623</td>
+      <td>502</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0157</td>
+      <td>Block A</td>
+      <td>Village A1</td>
+      <td>72</td>
+      <td>66</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0187</td>
+      <td>Block A</td>
+      <td>Village A1</td>
+      <td>822</td>
+      <td>700</td>
+      <td>planted_area_exceeds_parcel_area,implausible_tree_density</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0456</td>
+      <td>Block A</td>
+      <td>Village A1</td>
+      <td>144</td>
+      <td>130</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0484</td>
+      <td>Block A</td>
+      <td>Village A1</td>
+      <td>1683</td>
+      <td>1436</td>
+      <td>planted_area_exceeds_parcel_area,implausible_tree_density</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0047</td>
+      <td>Block A</td>
+      <td>Village A2</td>
+      <td>691</td>
+      <td>699</td>
+      <td>surviving_exceeds_planted</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0193</td>
+      <td>Block A</td>
+      <td>Village A2</td>
+      <td>360</td>
+      <td>348</td>
+      <td>planted_area_exceeds_parcel_area,implausible_tree_density</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0413</td>
+      <td>Block A</td>
+      <td>Village A2</td>
+      <td>34</td>
+      <td>31</td>
+      <td>planted_area_exceeds_parcel_area,implausible_tree_density</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0184</td>
+      <td>Block A</td>
+      <td>Village A3</td>
+      <td>258</td>
+      <td>224</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0330</td>
+      <td>Block A</td>
+      <td>Village A3</td>
+      <td>250</td>
+      <td>247</td>
+      <td>planted_area_exceeds_parcel_area,implausible_tree_density</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0374</td>
+      <td>Block A</td>
+      <td>Village A3</td>
+      <td>614</td>
+      <td>591</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0074</td>
+      <td>Block A</td>
+      <td>Village A4</td>
+      <td>280</td>
+      <td>273</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0217</td>
+      <td>Block A</td>
+      <td>Village A4</td>
+      <td>221</td>
+      <td>200</td>
+      <td>planted_area_exceeds_parcel_area,implausible_tree_density</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0259</td>
+      <td>Block A</td>
+      <td>Village A4</td>
+      <td>293</td>
+      <td>256</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0098</td>
+      <td>Block A</td>
+      <td>Village A5</td>
+      <td>575</td>
+      <td>495</td>
+      <td>planted_area_exceeds_parcel_area,implausible_tree_density</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0264</td>
+      <td>Block A</td>
+      <td>Village A5</td>
+      <td>72</td>
+      <td>60</td>
+      <td>planted_area_exceeds_parcel_area,implausible_tree_density</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0276</td>
+      <td>Block A</td>
+      <td>Village A5</td>
+      <td>341</td>
+      <td>333</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0103</td>
+      <td>Block A</td>
+      <td>Village A6</td>
+      <td>222</td>
+      <td>184</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0287</td>
+      <td>Block A</td>
+      <td>Village A6</td>
+      <td>162</td>
+      <td>159</td>
+      <td>planted_area_exceeds_parcel_area,implausible_tree_density</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0314</td>
+      <td>Block A</td>
+      <td>Village A6</td>
+      <td>223</td>
+      <td>197</td>
+      <td>planted_area_exceeds_parcel_area,implausible_tree_density</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0063</td>
+      <td>Block B</td>
+      <td>Village B1</td>
+      <td>175</td>
+      <td>163</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0121</td>
+      <td>Block B</td>
+      <td>Village B1</td>
+      <td>415</td>
+      <td>425</td>
+      <td>surviving_exceeds_planted</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0253</td>
+      <td>Block B</td>
+      <td>Village B1</td>
+      <td>90</td>
+      <td>80</td>
+      <td>planted_area_exceeds_parcel_area,implausible_tree_density</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0312</td>
+      <td>Block B</td>
+      <td>Village B2</td>
+      <td>763</td>
+      <td>622</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0360</td>
+      <td>Block B</td>
+      <td>Village B2</td>
+      <td>265</td>
+      <td>241</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0041</td>
+      <td>Block B</td>
+      <td>Village B4</td>
+      <td>136</td>
+      <td>103</td>
+      <td>planted_area_exceeds_parcel_area,implausible_tree_density</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0111</td>
+      <td>Block B</td>
+      <td>Village B4</td>
+      <td>342</td>
+      <td>301</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0148</td>
+      <td>Block B</td>
+      <td>Village B4</td>
+      <td>675</td>
+      <td>689</td>
+      <td>surviving_exceeds_planted</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0303</td>
+      <td>Block B</td>
+      <td>Village B4</td>
+      <td>137</td>
+      <td>144</td>
+      <td>surviving_exceeds_planted</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0378</td>
+      <td>Block B</td>
+      <td>Village B4</td>
+      <td>79</td>
+      <td>91</td>
+      <td>surviving_exceeds_planted</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0067</td>
+      <td>Block B</td>
+      <td>Village B5</td>
+      <td>770</td>
+      <td>734</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0088</td>
+      <td>Block B</td>
+      <td>Village B5</td>
+      <td>45</td>
+      <td>46</td>
+      <td>surviving_exceeds_planted</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0203</td>
+      <td>Block B</td>
+      <td>Village B5</td>
+      <td>1808</td>
+      <td>1820</td>
+      <td>surviving_exceeds_planted</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0110</td>
+      <td>Block C</td>
+      <td>Village C1</td>
+      <td>67</td>
+      <td>62</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0106</td>
+      <td>Block C</td>
+      <td>Village C2</td>
+      <td>820</td>
+      <td>776</td>
+      <td>planted_area_exceeds_parcel_area,implausible_tree_density</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0367</td>
+      <td>Block C</td>
+      <td>Village C3</td>
+      <td>879</td>
+      <td>731</td>
+      <td>planted_area_exceeds_parcel_area,implausible_tree_density</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0189</td>
+      <td>Block C</td>
+      <td>Village C4</td>
+      <td>237</td>
+      <td>222</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0202</td>
+      <td>Block C</td>
+      <td>Village C4</td>
+      <td>126</td>
+      <td>111</td>
+      <td>planted_area_exceeds_parcel_area,implausible_tree_density</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0418</td>
+      <td>Block C</td>
+      <td>Village C4</td>
+      <td>135</td>
+      <td>130</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0181</td>
+      <td>Block C</td>
+      <td>Village C5</td>
+      <td>54</td>
+      <td>51</td>
+      <td>planted_area_exceeds_parcel_area,implausible_tree_density</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0298</td>
+      <td>Block C</td>
+      <td>Village C5</td>
+      <td>446</td>
+      <td>373</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0040</td>
+      <td>Block C</td>
+      <td>Village C6</td>
+      <td>384</td>
+      <td>355</td>
+      <td>planted_area_exceeds_parcel_area,implausible_tree_density</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0301</td>
+      <td>Block C</td>
+      <td>Village C6</td>
+      <td>60</td>
+      <td>46</td>
+      <td>species_sum_mismatch</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0198</td>
+      <td>Block C</td>
+      <td>Village C7</td>
+      <td>1836</td>
+      <td>1405</td>
+      <td>planted_area_exceeds_parcel_area,implausible_tree_density</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0371</td>
+      <td>Block C</td>
+      <td>Village C7</td>
+      <td>247</td>
+      <td>261</td>
+      <td>surviving_exceeds_planted</td>
+    </tr>
+  </tbody>
+</table><h2>Survival by block</h2><table class="dataframe t">
+  <thead>
+    <tr style="text-align: right;">
+      <th>block</th>
+      <th>plots</th>
+      <th>survival_pct</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Block A</td>
+      <td>175</td>
+      <td>89.6</td>
+    </tr>
+    <tr>
+      <td>Block B</td>
+      <td>116</td>
+      <td>84.4</td>
+    </tr>
+    <tr>
+      <td>Block C</td>
+      <td>163</td>
+      <td>90.9</td>
+    </tr>
+  </tbody>
+</table><h2>Survival by irrigation source</h2><table class="dataframe t">
+  <thead>
+    <tr style="text-align: right;">
+      <th>irrigation_source</th>
+      <th>plots</th>
+      <th>survival_pct</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Canal</td>
+      <td>34</td>
+      <td>91.8</td>
+    </tr>
+    <tr>
+      <td>Lift Irrigation from River</td>
+      <td>58</td>
+      <td>91.7</td>
+    </tr>
+    <tr>
+      <td>Unknown</td>
+      <td>25</td>
+      <td>89.5</td>
+    </tr>
+    <tr>
+      <td>Pond</td>
+      <td>136</td>
+      <td>89.2</td>
+    </tr>
+    <tr>
+      <td>Stream</td>
+      <td>34</td>
+      <td>87.9</td>
+    </tr>
+    <tr>
+      <td>Pond , Water Tanker</td>
+      <td>40</td>
+      <td>87.6</td>
+    </tr>
+    <tr>
+      <td>Water Tanker</td>
+      <td>127</td>
+      <td>86.7</td>
+    </tr>
+  </tbody>
+</table><h2>Plots below 80% survival</h2><table class="dataframe t">
+  <thead>
+    <tr style="text-align: right;">
+      <th>farmer_id</th>
+      <th>block</th>
+      <th>village</th>
+      <th>trees_planted</th>
+      <th>trees_surviving</th>
+      <th>survival_pct</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>DEMO-F0400</td>
+      <td>Block B</td>
+      <td>Village B2</td>
+      <td>891</td>
+      <td>238</td>
+      <td>26.7</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0435</td>
+      <td>Block A</td>
+      <td>Village A2</td>
+      <td>705</td>
+      <td>210</td>
+      <td>29.8</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0380</td>
+      <td>Block C</td>
+      <td>Village C4</td>
+      <td>435</td>
+      <td>131</td>
+      <td>30.1</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0379</td>
+      <td>Block A</td>
+      <td>Village A4</td>
+      <td>714</td>
+      <td>226</td>
+      <td>31.7</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0391</td>
+      <td>Block B</td>
+      <td>Village B2</td>
+      <td>669</td>
+      <td>212</td>
+      <td>31.7</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0250</td>
+      <td>Block B</td>
+      <td>Village B5</td>
+      <td>456</td>
+      <td>299</td>
+      <td>65.6</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0353</td>
+      <td>Block B</td>
+      <td>Village B3</td>
+      <td>96</td>
+      <td>67</td>
+      <td>69.8</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0130</td>
+      <td>Block B</td>
+      <td>Village B4</td>
+      <td>189</td>
+      <td>136</td>
+      <td>72.0</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0472</td>
+      <td>Block B</td>
+      <td>Village B4</td>
+      <td>493</td>
+      <td>367</td>
+      <td>74.4</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0197</td>
+      <td>Block B</td>
+      <td>Village B4</td>
+      <td>202</td>
+      <td>151</td>
+      <td>74.8</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0142</td>
+      <td>Block B</td>
+      <td>Village B2</td>
+      <td>403</td>
+      <td>303</td>
+      <td>75.2</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0336</td>
+      <td>Block B</td>
+      <td>Village B5</td>
+      <td>412</td>
+      <td>315</td>
+      <td>76.5</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0252</td>
+      <td>Block C</td>
+      <td>Village C3</td>
+      <td>294</td>
+      <td>226</td>
+      <td>76.9</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0035</td>
+      <td>Block B</td>
+      <td>Village B1</td>
+      <td>250</td>
+      <td>193</td>
+      <td>77.2</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0476</td>
+      <td>Block A</td>
+      <td>Village A2</td>
+      <td>624</td>
+      <td>482</td>
+      <td>77.2</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0012</td>
+      <td>Block C</td>
+      <td>Village C6</td>
+      <td>468</td>
+      <td>365</td>
+      <td>78.0</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0354</td>
+      <td>Block B</td>
+      <td>Village B5</td>
+      <td>346</td>
+      <td>270</td>
+      <td>78.0</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0492</td>
+      <td>Block B</td>
+      <td>Village B3</td>
+      <td>1562</td>
+      <td>1221</td>
+      <td>78.2</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0489</td>
+      <td>Block B</td>
+      <td>Village B1</td>
+      <td>334</td>
+      <td>262</td>
+      <td>78.4</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0070</td>
+      <td>Block B</td>
+      <td>Village B1</td>
+      <td>550</td>
+      <td>432</td>
+      <td>78.5</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0328</td>
+      <td>Block B</td>
+      <td>Village B1</td>
+      <td>553</td>
+      <td>434</td>
+      <td>78.5</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0031</td>
+      <td>Block C</td>
+      <td>Village C4</td>
+      <td>753</td>
+      <td>592</td>
+      <td>78.6</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0027</td>
+      <td>Block B</td>
+      <td>Village B1</td>
+      <td>919</td>
+      <td>723</td>
+      <td>78.7</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0057</td>
+      <td>Block B</td>
+      <td>Village B3</td>
+      <td>1067</td>
+      <td>842</td>
+      <td>78.9</td>
+    </tr>
+    <tr>
+      <td>DEMO-F0017</td>
+      <td>Block B</td>
+      <td>Village B2</td>
+      <td>181</td>
+      <td>143</td>
+      <td>79.0</td>
+    </tr>
+  </tbody>
+</table><h2>Changes made by cleaning (16 recorded)</h2><table class="dataframe t">
+  <thead>
+    <tr style="text-align: right;">
+      <th>row_number</th>
+      <th>farmer_id</th>
+      <th>column</th>
+      <th>old_value</th>
+      <th>new_value</th>
+      <th>action</th>
+      <th>reason</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>179</td>
+      <td>DEMO-F0178</td>
+      <td>gender</td>
+      <td>male</td>
+      <td>Male</td>
+      <td>value_standardized</td>
+      <td>Standard format for gender</td>
+    </tr>
+    <tr>
+      <td>257</td>
+      <td>DEMO-F0252</td>
+      <td>gender</td>
+      <td>female</td>
+      <td>Female</td>
+      <td>value_standardized</td>
+      <td>Standard format for gender</td>
+    </tr>
+    <tr>
+      <td>302</td>
+      <td>DEMO-F0297</td>
+      <td>gender</td>
+      <td>FEMALE</td>
+      <td>Female</td>
+      <td>value_standardized</td>
+      <td>Standard format for gender</td>
+    </tr>
+    <tr>
+      <td>321</td>
+      <td>DEMO-F0316</td>
+      <td>gender</td>
+      <td>male</td>
+      <td>Male</td>
+      <td>value_standardized</td>
+      <td>Standard format for gender</td>
+    </tr>
+    <tr>
+      <td>391</td>
+      <td>DEMO-F0385</td>
+      <td>gender</td>
+      <td>MALE</td>
+      <td>Male</td>
+      <td>value_standardized</td>
+      <td>Standard format for gender</td>
+    </tr>
+    <tr>
+      <td>392</td>
+      <td>DEMO-F0386</td>
+      <td>gender</td>
+      <td>male</td>
+      <td>Male</td>
+      <td>value_standardized</td>
+      <td>Standard format for gender</td>
+    </tr>
+    <tr>
+      <td>394</td>
+      <td>DEMO-F0388</td>
+      <td>gender</td>
+      <td>male</td>
+      <td>Male</td>
+      <td>value_standardized</td>
+      <td>Standard format for gender</td>
+    </tr>
+    <tr>
+      <td>402</td>
+      <td>DEMO-F0396</td>
+      <td>gender</td>
+      <td>male</td>
+      <td>Male</td>
+      <td>value_standardized</td>
+      <td>Standard format for gender</td>
+    </tr>
+    <tr>
+      <td>442</td>
+      <td>DEMO-F0436</td>
+      <td>gender</td>
+      <td>FEMALE</td>
+      <td>Female</td>
+      <td>value_standardized</td>
+      <td>Standard format for gender</td>
+    </tr>
+    <tr>
+      <td>496</td>
+      <td>DEMO-F0489</td>
+      <td>gender</td>
+      <td>FEMALE</td>
+      <td>Female</td>
+      <td>value_standardized</td>
+      <td>Standard format for gender</td>
+    </tr>
+    <tr>
+      <td>194</td>
+      <td>DEMO-F0192</td>
+      <td>farmer_id</td>
+      <td>DEMO-F0192</td>
+      <td></td>
+      <td>row_removed</td>
+      <td>Duplicate farmer_id; first submission kept</td>
+    </tr>
+    <tr>
+      <td>202</td>
+      <td>DEMO-F0199</td>
+      <td>farmer_id</td>
+      <td>DEMO-F0199</td>
+      <td></td>
+      <td>row_removed</td>
+      <td>Duplicate farmer_id; first submission kept</td>
+    </tr>
+    <tr>
+      <td>211</td>
+      <td>DEMO-F0207</td>
+      <td>farmer_id</td>
+      <td>DEMO-F0207</td>
+      <td></td>
+      <td>row_removed</td>
+      <td>Duplicate farmer_id; first submission kept</td>
+    </tr>
+    <tr>
+      <td>243</td>
+      <td>DEMO-F0238</td>
+      <td>farmer_id</td>
+      <td>DEMO-F0238</td>
+      <td></td>
+      <td>row_removed</td>
+      <td>Duplicate farmer_id; first submission kept</td>
+    </tr>
+    <tr>
+      <td>332</td>
+      <td>DEMO-F0326</td>
+      <td>farmer_id</td>
+      <td>DEMO-F0326</td>
+      <td></td>
+      <td>row_removed</td>
+      <td>Duplicate farmer_id; first submission kept</td>
+    </tr>
+    <tr>
+      <td>466</td>
+      <td>DEMO-F0459</td>
+      <td>farmer_id</td>
+      <td>DEMO-F0459</td>
+      <td></td>
+      <td>row_removed</td>
+      <td>Duplicate farmer_id; first submission kept</td>
+    </tr>
+  </tbody>
+</table></body></html>
