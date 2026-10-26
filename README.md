@@ -55,7 +55,7 @@ The 18 extra flags are all `implausible_tree_density`. They are rows where the p
 | Rows marked warning | 45 |
 | Rows marked needs_review | 46 |
 
-**Tests:** 13 passing.
+**Tests:** 16 passing.
 
 ## Dashboard
 
@@ -69,6 +69,23 @@ A Streamlit dashboard shows plantation survival KPIs calculated with SQL from th
 - Validation issues counted by rule
 
 Survival is calculated as total surviving trees divided by total planted trees. Plots marked `needs_review` are excluded from survival KPIs, so bad data does not distort the numbers.
+
+## QA report
+
+Each monitoring round can produce a standalone HTML report for the project team:
+
+```bash
+python -m src.make_report --round "2026 Q3"
+```
+
+The report is saved in `reports/` and contains:
+- Plot counts by status (clean, warning, needs_review)
+- Validation issues counted by rule
+- The list of plots needing review, with the rules that flagged them, so field teams know what to re-check
+- Survival by block and irrigation source, and plots below a survival threshold
+- The changes made by the cleaning step
+
+![QA report screenshot](docs/qa_report.png)
 
 ## Rule types
 
@@ -108,16 +125,18 @@ mrv-data-pipeline/
 │   ├── load_db.py             write results to SQLite
 │   ├── run_pipeline.py        run the full pipeline
 │   ├── run_validation.py      run validation only and compare with the answer key
-│   └── kpis.py                SQL KPI queries
+│   ├── kpis.py                SQL KPI queries
+│   └── make_report.py         build the HTML QA report
 ├── dashboard/
 │   └── app.py                 Streamlit dashboard
 ├── tests/
 │   ├── test_validate.py
 │   ├── test_clean.py
-│   └── test_kpis.py
+│   ├── test_kpis.py
+│   └── test_report.py
 ├── data/raw/                  synthetic data and answer key
-├── docs/                      dashboard screenshot
-└── reports/                   generated issue list and audit log
+├── docs/                      dashboard and report screenshots
+└── reports/                   issue list, audit log and QA reports
 ```
 
 ## How to run
