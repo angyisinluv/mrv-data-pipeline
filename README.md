@@ -1,21 +1,35 @@
 # MRV Data Pipeline
 
-A configurable Python pipeline that validates plantation monitoring survey data before it is used for Measurement, Reporting and Verification (MRV) work.
+A configurable Python pipeline that validates, cleans and summarises plantation monitoring survey data for Measurement, Reporting and Verification (MRV) work. It ends in a SQL database and a dashboard showing tree survival KPIs.
 
 > **Data note:** all data in this repository is synthetic. It is generated randomly to imitate the structure of a tree-plantation monitoring survey. It contains no real farmers, villages, projects or coordinates.
 
+![Dashboard screenshot](docs/dashboard.png)
+
 ## Problem
 
-Monitoring survey exports usually arrive with errors: planted area larger than the land parcel, more surviving trees than planted, species counts that do not add up, duplicate farmers, incomplete rows. Checking these by hand each monitoring round is slow, and different people check different things.
+Monitoring survey exports usually arrive with errors: planted area larger than the land parcel, more surviving trees than planted, species counts that do not add up, duplicate farmers, incomplete rows. Checking these by hand each monitoring round is slow, and different people check different things. Survival numbers calculated from unchecked data can be wrong.
 
-## What this does (Phase 1)
+## What this does
 
+**Phase 1: Validation**
 - Loads a survey export and maps its column names to a standard format (`config/column_mapping.yaml`)
-- Runs a set of validation rules defined in plain text (`config/rules.yaml`), so a rule can be added or changed without touching the code
+- Runs validation rules defined in plain text (`config/rules.yaml`), so a rule can be added or changed without touching the code
 - Produces a list of every problem found, with row number, farmer ID, rule, severity (fail or warning) and message
 - Checks itself against an answer key of problems planted in the dummy data
 
+**Phase 2: Cleaning and database**
+- Fixes only safe problems (settings in `config/cleaning.yaml`) and records every change in an audit log
+- Labels each row `clean`, `warning` or `needs_review`
+- Stores plots, issues and the audit log in a SQLite database, with a `usable_plots` view that leaves out rows needing review
+
+**Phase 3: KPIs and dashboard**
+- Calculates survival KPIs with SQL from the `usable_plots` view
+- Shows them in a Streamlit dashboard
+
 ## Results on the dummy dataset
+
+**Validation (Phase 1)**
 
 | Measure | Result |
 |---|---|
@@ -25,9 +39,34 @@ Monitoring survey exports usually arrive with errors: planted area larger than t
 | Planted problems caught | 107 of 107 |
 | Planted problems missed | 0 |
 | Extra flags | 18 |
-| Unit tests | 6 passing |
 
 The 18 extra flags are all `implausible_tree_density`. They are rows where the planted area was inflated, so trees per hectare looks too low. One data error legitimately triggers two checks.
+
+**Cleaning (Phase 2)**
+
+| Measure | Result |
+|---|---|
+| Rows in / rows out | 506 / 500 |
+| Issues before / after cleaning | 125 / 109 |
+| Changes recorded in audit log | 16 |
+| Rows marked clean | 409 |
+| Rows marked warning | 45 |
+| Rows marked needs_review | 46 |
+
+**Tests:** 13 passing.
+
+## Dashboard
+
+A Streamlit dashboard shows plantation survival KPIs calculated with SQL from the cleaned database.
+
+- Usable plots, trees planted, overall survival rate and the number of plots needing review
+- Survival by block and by irrigation source
+- Surviving trees by species (share of total)
+- Data quality: plots by status (clean, warning, needs_review)
+- A follow-up list of plots below a survival threshold you choose
+- Validation issues counted by rule
+
+Survival is calculated as total surviving trees divided by total planted trees. Plots marked `needs_review` are excluded from survival KPIs, so bad data does not distort the numbers.
 
 ## Rule types
 
@@ -58,15 +97,25 @@ Example rule:
 mrv-data-pipeline/
 ├── config/
 │   ├── column_mapping.yaml    standard column names for each survey export
-│   └── rules.yaml             validation rules
+│   ├── rules.yaml             validation rules
+│   └── cleaning.yaml          cleaning settings
 ├── src/
 │   ├── ingest.py              load CSV and rename columns
 │   ├── validate.py            rule engine
-│   └── run_validation.py      run all rules and compare with the answer key
+│   ├── clean.py               safe fixes, audit log, row status
+│   ├── load_db.py             write results to SQLite
+│   ├── run_pipeline.py        run the full pipeline
+│   ├── run_validation.py      run validation only and compare with the answer key
+│   └── kpis.py                SQL KPI queries
+├── dashboard/
+│   └── app.py                 Streamlit dashboard
 ├── tests/
-│   └── test_validate.py
+│   ├── test_validate.py
+│   ├── test_clean.py
+│   └── test_kpis.py
 ├── data/raw/                  synthetic data and answer key
-└── reports/                   generated issue list
+├── docs/                      dashboard screenshot
+└── reports/                   generated issue list and audit log
 ```
 
 ## How to run
@@ -77,23 +126,24 @@ cd mrv-data-pipeline
 python -m venv venv
 source venv/Scripts/activate      # Windows Git Bash (Mac/Linux: source venv/bin/activate)
 pip install -r requirements.txt
-python -m src.run_validation
-python -m pytest -q
+python -m src.run_pipeline        # validate, clean, build the database
+python -m pytest -q               # run the tests
+streamlit run dashboard/app.py    # open the dashboard
 ```
 
-The issue list is saved to `reports/validation_issues.csv`.
+The dashboard opens at http://localhost:8501. The pipeline creates `data/mrv.db`, `data/processed/plantation_clean.csv` and `reports/audit_log.csv`.
 
 ## Roadmap
 
 - [x] Phase 1: configurable rule engine with tests
 - [x] Phase 2: cleaning with an audit trail, and loading into a SQLite database
-- [ ] Phase 3: survival KPIs by block, species and irrigation, plus a dashboard
+- [x] Phase 3: survival KPIs by block, species and irrigation, plus a dashboard
 - [ ] Phase 4: automated QA report for each monitoring round
 - [ ] Phase 5 (optional): model to flag plots at risk of low survival
 
 ## Tech stack
 
-Python, pandas, PyYAML, pytest
+Python, pandas, PyYAML, SQLite, SQL, Streamlit, pytest
 
 ## Author
 
